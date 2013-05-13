@@ -1,2 +1,185 @@
-body.tour {
+body.tour .section.slides {
+  position: relative;
+  margin: 0 0 3em;
 }
+body.tour ul.slides {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font: 16px/1.5 sans-serif;
+}
+body.tour ul.slides,
+body.tour ul.slides li.slide {
+  height: 450px;
+}
+body.tour ul.slides li.slide .image{
+  width: 960px;
+  height: 369px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+  
+body.tour ul.slides li.slide .image img {
+  display: inline;
+}
+
+body.tour ul.slides li.slide .text {
+  text-align: center;
+}
+body.tour ul.slides li.slide .text p {
+  margin: 0;
+  color: #666;
+}
+body.tour ul.slides li.slide .text p strong {
+  color: #333;
+  font: bold 1.25em/1.5 Myriad Pro;
+  font-size: 1.25em;
+}
+
+body.tour div.slides .tour-slides-nav {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background: transparent;
+  background: hsla(0,0%,0%,0.0);
+  position: absolute;
+  top: 100px;
+  z-index: 100;
+  font: 3em/114px sans-serif;
+  text-align: center;
+  color: #999;
+}
+#section-tour-slides .tour-slides-nav:hover {
+  color: #333;
+  background: #eee;
+  background: hsla(0,0%,0%,.08);
+  transition: .25s ease all;
+}
+#section-tour-slides .tour-slides-nav.prev {
+  left: 0;
+}
+#section-tour-slides .tour-slides-nav.next {
+  right: 0;
+}
+
+#section-tour-slides #tour-slides-pager {
+  height: 16px;
+  width: 960px;
+  text-align: center;
+}
+#section-tour-slides #tour-slides-pager a {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: #ccc;
+  margin: 0 4px 0;
+  display: inline-block;
+  text-indent: -999em;
+}
+#section-tour-slides #tour-slides-pager a.activeSlide {
+  background: #333;
+  transition: .25s ease all;
+}
+
+
+
+
+#section-tour-tabs {
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+  margin: 0 0 3em;
+}
+#section-tour-tabs ul {
+  width: 240px;
+  float: left;
+  list-style: none;
+}
+#section-tour-tabs ul li {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  z-index: 10;
+  border-left: 1px solid #ddd;
+}
+#section-tour-tabs ul li.ui-state-active {
+  border-right: 1px solid #fff;
+  margin-right: -1px;
+}
+#section-tour-tabs ul li a {
+  display: block;
+  padding: 1em;
+}
+#section-tour-tabs ul li a:hover {
+  background: #f7f7f7;
+}
+#section-tour-tabs ul li.ui-state-active a {
+  color: #333;
+  font-weight: bold;
+  cursor: default;
+}
+#section-tour-tabs ul li.ui-state-active a:hover {
+  background: #fff;
+}
+#section-tour-tabs .tab-content {
+  width: 720px;
+  float: left;
+  border-left: 1px solid #ddd;
+  padding-top: 2em;
+}
+#section-tour-tabs .tab-content .media {
+  clear: both;
+  width: 719px;
+  min-height: 100px;
+  padding: 0 0 1.75em;
+}
+#section-tour-tabs .tab-content .media .text {
+  width: 439px;
+  float: left;
+  padding: 0 2em;
+}
+#section-tour-tabs .tab-content .media .text h3 {
+  font: bold 1.5em/1.25 Myriad Pro;
+  margin: 0 0 .5em;
+  
+}
+#section-tour-tabs .tab-content .media .text p {
+  margin: 0 0 .75em;
+}
+#section-tour-tabs .tab-content .media .image {
+  width: 280px;
+  float: left;
+}
+#section-tour-tabs .tab-content .media .image img {
+  border: 1px solid #ddd;
+}
+#section-tour-tabs .tab-content blockquote {
+  border: 1px solid #ddd;
+  padding: 1em 1.5em 1.5em;
+  margin: 1em 0 2em 2em;
+}
+#section-tour-tabs .tab-content blockquote p {
+  font: 1.25em/1.5 Myriad Pro;
+}
+#section-tour-tabs .tab-content blockquote p:before {content:"\201C"}
+#section-tour-tabs .tab-content blockquote p:after {content:"\201D"}
+#section-tour-tabs .tab-content cite {
+  font-style: normal;
+}
+#section-tour-tabs .tab-content cite .image {
+  float: left;
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  margin-right: .75em
+}
+#section-tour-tabs .tab-content cite .text span{
+  display: block;
+}
+#section-tour-tabs .tab-content cite .text .name {
+  color: #c00;
+  font-weight: bold;
+}
+#section-tour-tabs .tab-content cite .text .title {
+  color: #666;
+}
+

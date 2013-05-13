@@ -1,0 +1,95 @@
+body.customers #section-customers {
+  margin: 0 0 3em;
+  padding-top: 1.5em;
+}
+#section-customers ul.customers {
+  width: 976px;
+}
+#section-customers .customer {
+  float: left;
+  margin: 0 1em 1em 0;
+  position: relative;
+}
+#section-customers .customer, 
+#section-customers .customer a {
+  width: 308px;
+  height: 444px;
+}
+#section-customers .customer a {
+  display: block;
+  border: 1px solid #fff;
+}
+#section-customers .customer a:hover {
+  border-color: #333;
+}
+#section-customers .customer .company {
+  font: 12px/1.5 sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  display: none;
+}
+#section-customers .customer .logo{
+  text-align: center;
+  width: 244px;
+  margin: 32px 32px 0;
+}
+#section-customers .customer .logo img {
+  display: inline-block;
+  vertical-align: top;
+}
+#section-customers .customer blockquote{
+  margin: 0;
+  padding: 1em 2em;
+
+}
+#section-customers .customer blockquote p  {
+  font: 15px/1.4 sans-serif;
+  color: #333;
+}
+#section-customers .customer blockquote p:before {content:"\201C"}
+#section-customers .customer blockquote p:after {content:"\201D"}
+#section-customers .customer blockquote cite  {
+  font-style: normal;
+  height: 48px;
+  padding: 16px 0;
+  position: absolute;
+  bottom: 48px;
+  left: 32px;
+  width: 244px;
+  border-top: 1px solid #ddd;
+}
+#section-customers .customer blockquote cite .image {
+  float: left;
+  width: 48px;
+  height: 48px;
+}
+#section-customers .customer blockquote cite .text {
+  float: left;
+  width: 196px;
+  padding: 6px 0 6px 8px;
+  font: 12px/1.5 sans-serif;
+}
+#section-customers .customer blockquote cite .text span {
+  display: block;
+}
+#section-customers .customer blockquote cite .text .name {
+  color: #c00;
+  font-weight: bold;
+}
+#section-customers .customer a:hover blockquote cite .text .name {
+  color: #999;
+}
+#section-customers .customer blockquote cite .text .title {
+  color: #666;
+}
+#section-customers .customer a:hover blockquote cite .text .title {
+  display: none
+}
+#section-customers .customer blockquote cite .text .read-story {
+  display: none;
+  color: #c00;
+  font-weight: bold;
+}
+#section-customers .customer a:hover blockquote cite .text .read-story {
+  display: block;
+}
