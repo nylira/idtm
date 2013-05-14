@@ -9,18 +9,26 @@ body.customers #section-customers {
   float: left;
   margin: 0 1em 1em 0;
   position: relative;
-}
-#section-customers .customer, 
-#section-customers .customer a {
-  width: 308px;
+  width: 306px;
   height: 444px;
 }
 #section-customers .customer a {
+  width: 304px;
+  height: 442px;
   display: block;
-  border: 1px solid #fff;
+  border: 1px solid #ddd;
+  box-shadow: #fff 8px 8px 0 0;
 }
 #section-customers .customer a:hover {
   border-color: #333;
+  box-shadow: #1c5e9b 8px 8px 0 0;
+  margin: -8px 0 0 -8px;
+  transition: .2s ease all;
+}
+#section-customers .customer a:hover blockquote cite  {
+  top: 345px;
+  left: 27px;
+  transition: .2s ease all;
 }
 #section-customers .customer .company {
   font: 12px/1.5 sans-serif;
@@ -31,7 +39,7 @@ body.customers #section-customers {
 #section-customers .customer .logo{
   text-align: center;
   width: 244px;
-  margin: 32px 32px 0;
+  margin: 32px 30px 0;
 }
 #section-customers .customer .logo img {
   display: inline-block;
@@ -53,7 +61,7 @@ body.customers #section-customers {
   height: 48px;
   padding: 16px 0;
   position: absolute;
-  bottom: 48px;
+  top: 350px;
   left: 32px;
   width: 244px;
   border-top: 1px solid #ddd;
@@ -65,7 +73,7 @@ body.customers #section-customers {
 }
 #section-customers .customer blockquote cite .text {
   float: left;
-  width: 196px;
+  width: 162px;
   padding: 6px 0 6px 8px;
   font: 12px/1.5 sans-serif;
 }

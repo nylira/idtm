@@ -13,7 +13,7 @@ body.tour ul.slides li.slide {
   height: 450px;
 }
 body.tour ul.slides li.slide .image{
-  width: 960px;
+  width: 950px;
   height: 369px;
   display: table-cell;
   text-align: center;
@@ -65,7 +65,7 @@ body.tour div.slides .tour-slides-nav {
 
 #section-tour-slides #tour-slides-pager {
   height: 16px;
-  width: 960px;
+  width: 950px;
   text-align: center;
 }
 #section-tour-slides #tour-slides-pager a {
@@ -83,15 +83,13 @@ body.tour div.slides .tour-slides-nav {
 }
 
 
-
-
 #section-tour-tabs {
   border-bottom: 1px solid #ddd;
   padding: 0;
   margin: 0 0 3em;
 }
 #section-tour-tabs ul {
-  width: 240px;
+  width: 229px;
   float: left;
   list-style: none;
 }
