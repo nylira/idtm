@@ -193,3 +193,5 @@ body.marketing input.mkt-input {
 }
 
 
+body.marketing input.mkt-input.docs {
+  width: 153px;

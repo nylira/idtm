@@ -1,0 +1,37 @@
+article.marketing .body ul.documentation-matrix {
+  width: 656px;
+  height: 536px;
+  list-style: none;
+  padding: 0;
+  border-bottom: 1px solid #ddd;
+  margin: 0 0 3em;
+}
+article.marketing .body ul.documentation-matrix li {
+  margin: 0 16px 16px 0;
+  float: left;
+  position: relative;
+  width: 312px;
+  height: 243px;
+}
+article.marketing .body ul.documentation-matrix li a {
+  display: block;
+  width: 310px;
+  height: 241px;
+  border: 1px solid #ddd;
+}
+article.marketing .body ul.documentation-matrix li a:hover{
+  border-color: #333;
+  box-shadow: #1c5e9b 8px 8px 0 0;
+  margin: -8px 0 0 -8px;
+  transition: .2s ease all;
+}
+
+article.marketing .body ul.documentation-matrix li a .label {
+  font: 1.25em/3 Myriad Pro;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  color: #333;
+}
+article.marketing .body ul.documentation-matrix li a:hover .label {
+  color: #c00;
+}
