@@ -208,6 +208,16 @@ aside.marketing .content li a.active:hover {
   text-decoration: none;
 }
 
+body.casestudy aside.marketing .content li {
+  padding: .3725em 1em;
+  list-style: none;
+}
+body.casestudy aside.marketing .content li a {
+  display: inline;
+  padding: 0;
+  line-height: auto;
+}
+
 /*============================================================*/
 /* Article #mkt-subscribe sidebar box
 /*============================================================*/
