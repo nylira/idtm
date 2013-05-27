@@ -6,6 +6,7 @@ article.marketing .body ul.documentation-matrix {
   border-bottom: 1px solid #ddd;
   margin: 0 0 3em;
 }
+
 article.marketing .body ul.documentation-matrix li {
   margin: 0 16px 16px 0;
   float: left;
@@ -13,13 +14,15 @@ article.marketing .body ul.documentation-matrix li {
   width: 312px;
   height: 243px;
 }
+
 article.marketing .body ul.documentation-matrix li a {
   display: block;
   width: 310px;
   height: 241px;
   border: 1px solid #ddd;
 }
-article.marketing .body ul.documentation-matrix li a:hover{
+
+article.marketing .body ul.documentation-matrix li a:hover {
   border-color: #333;
   box-shadow: #1c5e9b 8px 8px 0 0;
   margin: -8px 0 0 -8px;

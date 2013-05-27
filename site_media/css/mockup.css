@@ -1,6 +1,10 @@
 /*============================================================*/
 /* Quick Defaults
 /*============================================================*/
+
+body.marketing header.site {
+}
+
 body.marketing #content {
   width: 950px;
   margin: 0 auto;
@@ -77,50 +81,57 @@ body.marketing a:hover {
   outline: none;
 }
 
+
 /*============================================================*/
-/* Temporary Site Header
+/* Sections
 /*============================================================*/
 
-body.marketing header.site {
-  background: #ddd;
-  height: 53px;
+body.marketing section.section,
+body.marketing article.section,
+body.marketing div.section {
+  border-bottom: 1px solid #ddd;
+  padding: 3em 0;
+  vertical-align: top;
+}
+
+body.marketing section.section header.section,
+body.marketing article.section header.section,
+body.marketing div.section header.section {
   padding: 0;
   margin: 0 0 3em;
   width: 950px;
 }
-body.marketing footer.site {
-  border-top: 1px solid #ddd;
-  line-height: 3em;
-  height: 3em;
-}
-
-body.marketing header.page {
-  margin: 0 0 2em;
+body.marketing section.section header.section,
+body.marketing article.section header.section,
+body.marketing div.section header.section {
+  margin: 0 0 3em;
   text-align: center;
 }
-body.marketing h1.title {
+body.marketing section.section header.section h1,
+body.marketing article.section header.section h1,
+body.marketing div.section header.section h1 {
+  text-align: center;
   font: 2.5em/1 Myriad Pro;
   letter-spacing: -1px;
-  margin: 0 0 .5em;
+  margin: 0 0 .25em;
 }
-body.marketing header.page p {
+body.marketing section.section header.section p,
+body.marketing article.section header.section p,
+body.marketing div.section header.section p {
   color: #666;
   font: 1.25em/1.5 Myriad Pro;
   margin: 0;
 }
 
 /*============================================================*/
-/* Sections
+/* Footer
 /*============================================================*/
 
-body.marketing div.section {
-  border-bottom: 1px solid #ddd;
-  padding: 0 0 3em;
-  vertical-align: top;
+body.marketing footer.site {
+  line-height: 3em;
+  height: 3em;
 }
-body.marketing .section:last-of-type {
-  border-bottom: none;
-}
+
 
 /*============================================================*/
 /* Call to action
@@ -128,13 +139,13 @@ body.marketing .section:last-of-type {
 
 body.marketing .section.call-to-action  {
   text-align: center;
-  padding: 0;
 }
 
 body.marketing .call-to-action p {
-font: 2em/50px Myriad Pro;
-display: inline-block;
-padding-right: 1em;
+  font: 2em/50px Myriad Pro;
+  display: inline-block;
+  padding-right: 1em;
+  margin: 0;
 }
 
 body.marketing .cta-button {
