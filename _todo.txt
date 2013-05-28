@@ -1,0 +1,36 @@
+blog.html
+* Email signup
+*   Fix join button's positioning
+*   Add a red border for emphasis
+* Move sharing buttons to the end of the piece, above attribution
+* Make "attribution" smaller 
+* Follow - Add hard coded follow numbers
+* Ad unit - "sign up for idonethis"
+  
+casestudy.html
+* Put title text on image
+* Move up the Company Profile
+
+customers.html
+* Make four columns
+* Hover overlay on the logo
+* Customer testimonials section
+* Customer logos  section
+
+doc-index.html
+doc-single.html
+* Create nested menu items
+
+doc-single.html
+* Next/Prev article at bottom
+
+tour.html
+* Add secondary text to title
+* Dimensions for howto screenshots: 670x384 max, smaller is okay
+* Dimensions for features screenshots: 240px wide, any height is okay
+* Implement tabbed layout
+
+Misc
+* Improve the styling of the call to action
+* Add a hover and depressed effect to the buttons
+  Document and clean up the CSS

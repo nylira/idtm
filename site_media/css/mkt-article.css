@@ -37,6 +37,7 @@ article.marketing header.article .meta a:hover {
 /*============================================================*/
 /* Case Study Header
 /*============================================================*/
+
 article.marketing header.article.article-image.section {
   position: relative;
   width: 950px;
@@ -83,7 +84,6 @@ article.marketing header.article.article-image.section img {
 article.marketing .body {
   width: 640px;
   margin-left: 310px;
-  margin-bottom: 3em;
 }
 article.marketing .body h2,
 article.marketing .body h3 {
@@ -99,7 +99,7 @@ article.marketing .body p.intro {
 }
 
 /*============================================================*/
-/* Article Lists
+/* Article Body Lists
 /*============================================================*/
 
 article.marketing .body ul,
@@ -119,7 +119,7 @@ article.marketing ul {
 }
 
 /*============================================================*/
-/* Article Blockquote/Images
+/* Article Body Blockquote/Images
 /*============================================================*/
 
 article.marketing .body .image {
@@ -178,7 +178,7 @@ article.marketing .body cite .text .title {
 }
 
 /*============================================================*/
-/* Article Sidebar
+/* Article Sidebar (Aside)
 /*============================================================*/
 
 aside.marketing {
@@ -435,7 +435,7 @@ article.marketing .bio-bottom {
   border: 1px solid #ddd;
   padding: 1.5em;
   background: rgba(0,0,0,0.04);
-  margin: 3em 0;
+  margin: 3em 0 0;
 }
 article.marketing .bio-bottom img {
   float: left;
@@ -449,8 +449,6 @@ article.marketing .bio-bottom img {
 /* Article Sidebar Adjusted
 /*============================================================*/
 
-body.blog aside.marketing {
-}
-body.casestudy aside {
+body.mkt-casestudy aside {
   margin-left: -310px;
 }

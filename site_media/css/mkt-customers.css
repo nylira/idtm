@@ -151,6 +151,8 @@ body.customers #section-customers {
 /*============================================================*/
 
 #section-testimonials {
+}
+#section-testimonials .content {
   width: 963px;
 }
 #section-testimonials blockquote {

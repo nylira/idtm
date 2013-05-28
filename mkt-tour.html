@@ -3,82 +3,125 @@
   <head>
     <title>Tour - iDoneThis</title>
     <link rel="stylesheet" href="site_media/css/normalize.css">
-    <link rel="stylesheet" href="site_media/css/mockup.css">
-    <link rel="stylesheet" href="site_media/css/tour.css">
+    <link rel="stylesheet" href="site_media/css/mkt-shared.css">
+    <link rel="stylesheet" href="site_media/css/mkt-tour.css">
   </head>
 
-  <body class="marketing tour">
+  <body class="mkt mkt-tour">
     <div id="content">
       <header class="site"><img src="site_media/img/placeholders/idt-header.png" width="950" height="53"></header>
 
-      <header class="page">
-        <h1 class="title">The easiest way to get the right stuff done.</h1>
-      </header>
+      <section class="section section-tour-tabs">
+        <header class="section">
+          <h1>The easiest way to get the right stuff done.</h1>
+          <p>Some placeholder secondary title text would go here.</p>
+        </header>
+        <div class="content clearfix">
 
-      <div class="section slides" id="section-tour-slides">
-        <ul class="slides" id="tour-slides">
-          <li class="slide">
-            <div class="image">
+          <ul class="left-tabs">
+            <li><a href="#tabs-howto-1">
+                <span class="num">1</span>
+                <span class="label">Some placeholder label text would go here &rsaquo;</span>
+            </a></li>
+            <li><a href="#tabs-howto-2">
+                <span class="num">2</span>
+                <span class="label">Some placeholder label text would go here &rsaquo;</span>
+            </a></li>
+            <li><a href="#tabs-howto-3">
+                <span class="num">3</span>
+                <span class="label">Some placeholder label text would go here &rsaquo;</span>
+            </a></li>
+            <li><a href="#tabs-howto-4">
+                <span class="num">4</span>
+                <span class="label">Some placeholder label text would go here &rsaquo;</span>
+            </a></li>
+            <li><a href="#tabs-howto-5">
+                <span class="num">5</span>
+                <span class="label">Some placeholder label text would go here &rsaquo;</span>
+            </a></li>
+          </ul>
+
+          <div id="tabs-howto-1" class="tab-content">
+            <div class="image-large">
               <img src="site_media/img/tour/howto1_reminder.png">
             </div>
-            <div class="text">
+            <div class="subtext">
               <p><strong>We'll ask you what you got done.</strong></p>
               <p>All you have to do is reply to our email.</p>
             </div>
-          </li>
-          <li class="slide">
-            <div class="image">
+          </div>
+
+          <div id="tabs-howto-2" class="tab-content">
+            <div class="image-large">
               <img src="site_media/img/tour/howto2_1.png">
             </div>
-            <div class="text">
+            <div class="subtext">
               <p><strong>Or enter your dones on the web.</strong></p>
-            </div>
-          </li>
-          <li class="slide">
-            <div class="image">
-              <img src="site_media/img/tour/howto3_emaildigest.png">
-            </div>
-            <div class="text">
-              <p><strong>The next morning, we'll bring you a digest of everyone's dones.</strong></p>
-              <p>You're up to speed and ready to kickstart another day of awesomeness.</p>
-            </div>
-          </li>
-          <li class="slide">
-            <div class="image">
-              <img src="site_media/img/tour/howto4_1.png">
-            </div>
-            <div class="text">
-              <p><strong>Show your appreciation and gratitude. Spark a conversation.</strong></p>
-              <p>Enrich and inspire your work with feedback and acknowledgment.</p>
-            </div>
-          </li>
-          <li class="slide">
-            <div class="image">
-              <img src="site_media/img/tour/howto5_2.png">
-            </div>
-            <div class="text">
-              <p><strong>Check out your team's progress. Acknowledge wins, big and small.</strong></p>
-              <p>Print and share reports to broadcast your accomplishments.</p>
-            </div>
-          </li>
-        </ul><!--slides-->
-        <div id="tour-slides-pager"></div>
-        <a href="#" class="tour-slides-nav prev" id="tour-slides-prev">&larr;</a>
-        <a href="#" class="tour-slides-nav next" id="tour-slides-next">&rarr;</a>
-      </div><!--section-->
+              <p>Subtitle here to balance out the design</strong></p>
+          </div>
+        </div>
 
-      <div class="section call-to-action">
-        <p>Start your 30 day free trial.</p>
-        <a class="cta-button">Sign up for iDoneThis</a>
-      </div>
+        <div id="tabs-howto-3" class="tab-content">
+          <div class="image-large">
+            <img src="site_media/img/tour/howto3_emaildigest.png">
+          </div>
+          <div class="subtext">
+            <p><strong>The next morning, we'll bring you a digest of everyone's dones.</strong></p>
+            <p>You're up to speed and ready to kickstart another day of awesomeness.</p>
+          </div>
+        </div>
 
-      <div class="section clearfix" id="section-tour-tabs">
+        <div id="tabs-howto-4" class="tab-content">
+          <div class="image-large">
+            <img src="site_media/img/tour/howto4_1.png">
+          </div>
+          <div class="subtext">
+            <p><strong>Show your appreciation and gratitude. Spark a conversation.</strong></p>
+            <p>Enrich and inspire your work with feedback and acknowledgment.</p>
+          </div>
+        </div>
+
+        <div id="tabs-howto-5" class="tab-content">
+          <div class="image-large">
+            <img src="site_media/img/tour/howto5_2.png">
+          </div>
+          <div class="subtext">
+            <p><strong>Check out your team's progress. Acknowledge wins, big and small.</strong></p>
+            <p>Print and share reports to broadcast your accomplishments.</p>
+          </div><!--text-->
+        </div><!--tab-content-->
+
+      </div><!--content-->
+
+    </section><!--section-->
+
+    <section class="section clearfix section-tour-tabs">
+      <header class="section">
+        <h1>Benefits and features - working title.</h1>
+        <p>Learn about iDoneThis in greater detail.</p>
+      </header>
+      <div class="content">
         <ul class="left-tabs">
-          <li><a href="#tabs-1">Spend more time doing things that matter.</a></li>
-          <li><a href="#tabs-2">Reveal your work.</a></li>
-          <li><a href="#tabs-3"> Power your people.</a></li>
-          <li><a href="#tabs-4">Grow through knowledge.</a></li>
-          <li><a href="#tabs-5">Fill in the blanks</a></li>
+          <li><a href="#tabs-1">
+              <span class="num">1</span>
+              <span class="label">Spend more time doing things that matter. &rsaquo;</span>
+          </a></li>
+          <li><a href="#tabs-2">
+              <span class="num">2</span>
+              <span class="label">Reveal your work. &rsaquo;</span>
+          </a></li>
+          <li><a href="#tabs-3">
+              <span class="num">3</span>
+              <span class="label">Power your people. &rsaquo;</span>
+          </a></li>
+          <li><a href="#tabs-4">
+              <span class="num">4</span>
+              <span class="label">Grow through knowledge. &rsaquo;</span>
+          </a></li>
+          <li><a href="#tabs-5">
+              <span class="num">5</span>
+              <span class="label">Fill in the blanks &rsaquo;</span>
+          </a></li>
         </ul>
 
         <div id="tabs-1" class="tab-content">
@@ -88,7 +131,7 @@
               <p>Stop wasting time in meetings and standups going over status.</p>
             </div>
             <div class="image">
-              <img src="site_media/img/tour/statusdonessmall.png" width="280">
+              <img src="site_media/img/tour/statusdonessmall.png" width="240">
             </div>
           </div><!--media-->
           <div class="media clearfix">
@@ -97,7 +140,7 @@
               <p>Maintain your flow and get more real work done.</p>
             </div>
             <div class="image">
-              <img src="site_media/img/tour/rhythm.png" width="280">
+              <img src="site_media/img/tour/rhythm.png" width="240">
             </div><!--media-->
           </div><!--media-->
           <blockquote>
@@ -121,7 +164,7 @@
               <p>Get stuff done as a team.</p>
             </div>
             <div class="image">
-              <img src="site_media/img/tour/links_smaller.png" width="280">
+              <img src="site_media/img/tour/links_smaller.png" width="240">
             </div>
           </div><!--media-->
           <div class="media clearfix">
@@ -130,7 +173,7 @@
               <p>Filter your digest and web view to follow what’s most relevant to you.</p>
             </div>
             <div class="image">
-              <img src="site_media/img/tour/tellpeople3.png" width="280">
+              <img src="site_media/img/tour/tellpeople3.png" width="240">
             </div><!--media-->
           </div><!--media-->
           <blockquote>
@@ -154,7 +197,7 @@
               <p>Gain support to fuel your best work.</p>
             </div>
             <div class="image">
-              <img src="site_media/img/tour/commentlikesample.png" width="280">
+              <img src="site_media/img/tour/commentlikesample.png" width="240">
             </div>
           </div><!--media-->
           <div class="media clearfix">
@@ -164,7 +207,7 @@
               <p>iDoneThis provides a simple channel to connect, motivate, and engage.</p>
             </div>
             <div class="image">
-              <img src="site_media/img/tour/gratitudechannel.png" width="280">
+              <img src="site_media/img/tour/gratitudechannel.png" width="240">
             </div><!--media-->
           </div><!--media-->
           <blockquote>
@@ -189,7 +232,7 @@
               <p>Recalibrate focus and attention. Respond to roadblocks with agility.</p>
             </div>
             <div class="image">
-              <img src="site_media/img/tour/wc.png" width="280">
+              <img src="site_media/img/tour/wc.png" width="240">
             </div>
           </div><!--media-->
           <div class="media clearfix">
@@ -199,7 +242,7 @@
               <p>Hone your vision.</p>
             </div>
             <div class="image">
-              <img src="site_media/img/tour/cal.png" width="280">
+              <img src="site_media/img/tour/cal.png" width="240">
             </div><!--media-->
           </div><!--media-->
           <blockquote>
@@ -223,7 +266,7 @@
               <p>Align rapidly growing companies and all types of teams, including dev, startup, sales, and media.</p>
             </div>
             <div class="image">
-              <img src="site_media/img/tour/distributed.png" width="280">
+              <img src="site_media/img/tour/distributed.png" width="240">
             </div>
           </div><!--media-->
           <div class="media clearfix">
@@ -233,8 +276,8 @@
               <p>iDoneThis is a versatile, gap-filling communication tool that fits your team.</p>
             </div>
             <div class="image">
-              <img src="site_media/img/tour/answers.png" width="280">
-            </div><!--media-->
+              <img src="site_media/img/tour/answers.png" width="240">
+            </div><!--image-->
           </div><!--media-->
           <blockquote>
             <p>Great lens as to what’s going on in my organization. Moving fast, remote team members — I find this tool invaluable.</p>
@@ -250,18 +293,21 @@
           </blockquote>
         </div><!--tab-content-->
       </div>
+    </section>
 
-      <div class="section call-to-action">
-        <p>Try iDoneThis free for 30 days.</p>
-        <a class="cta-button">Start trial now!</a>
+    <section class="section call-to-action">
+      <div class="text">
+        <p>Try out <strong>iDoneThis</strong> free for 30 days.</p>
+        <p class="subtext">Discover why the best companies use us to complete their projects.</p>
       </div>
+      <a class="cta-button">Start your trial now</a>
+    </section>
 
-      <footer class="site"></footer>
-    </div>
+    <footer class="site"></footer>
+  </div>
 
-    <script src="site_media/js/jquery-1.9.1.min.js"></script>
-    <script src="site_media/js/jquery-ui-1.10.2.custom.min.js"></script>
-    <script src="site_media/js/jquery.cycle.all.js"></script>
-    <script src="site_media/js/script.js"></script>
-  </body>
+  <script src="site_media/js/jquery-1.9.1.min.js"></script>
+  <script src="site_media/js/jquery-ui-1.10.2.custom.min.js"></script>
+  <script src="site_media/js/script.js"></script>
+</body>
 </html>

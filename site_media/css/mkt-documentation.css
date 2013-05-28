@@ -1,3 +1,7 @@
+/*============================================================*/
+/* use case flow 
+/*============================================================*/
+
 article.marketing .body ul.documentation-matrix {
   width: 656px;
   height: 536px;
@@ -24,8 +28,12 @@ article.marketing .body ul.documentation-matrix li a {
 
 article.marketing .body ul.documentation-matrix li a:hover {
   border-color: #333;
-  box-shadow: #1c5e9b 8px 8px 0 0;
-  margin: -8px 0 0 -8px;
+  box-shadow: #1c5e9b 4px 4px 0 0;
+  margin: -4px 0 0 -4px;
+  -webkit-transition: .2s ease all;
+  -moz-transition: .2s ease all;
+  -ie-transition: .2s ease all;
+  -o-transition: .2s ease all;
   transition: .2s ease all;
 }
 

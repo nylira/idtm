@@ -2,10 +2,10 @@
 /* Quick Defaults
 /*============================================================*/
 
-body.marketing header.site {
+body.mkt header.site {
 }
 
-body.marketing #content {
+body.mkt #content {
   width: 950px;
   margin: 0 auto;
   color: #333;
@@ -13,7 +13,7 @@ body.marketing #content {
   position: relative;
 }
 
-body.marketing div, button, a, img, li, ul, blockquote, cite, input, button {
+body.mkt div, button, a, img, li, ul, blockquote, cite, input, button, span {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -25,7 +25,7 @@ body.marketing div, button, a, img, li, ul, blockquote, cite, input, button {
 /* Clearfix
 /*============================================================*/
 
-body.marketing .clearfix:after {
+body.mkt .clearfix:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -33,10 +33,10 @@ body.marketing .clearfix:after {
   clear: both;
   height: 0;
 }
-body.marketing .clearfix { display: inline-table; }
+body.mkt .clearfix { display: inline-table; }
 /* Hides from IE-mac \*/
-* html body.marketing .clearfix { height: 1%; }
-body.marketing .clearfix { display: block; }
+* html body.mkt .clearfix { height: 1%; }
+body.mkt .clearfix { display: block; }
 /* End hide from IE-mac */
 
 
@@ -44,23 +44,23 @@ body.marketing .clearfix { display: block; }
 /* Typography
 /*============================================================*/
 
-body.marketing ul,
-body.marketing ol {
+body.mkt ul,
+body.mkt ol {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-body.marketing p {
+body.mkt p {
   margin: 0 0 1.5em;
 }
 
-body.marketing h1,
-body.marketing h2,
-body.marketing h3,
-body.marketing h4,
-body.marketing h5,
-body.marketing h6 {
+body.mkt h1,
+body.mkt h2,
+body.mkt h3,
+body.mkt h4,
+body.mkt h5,
+body.mkt h6 {
   margin: 0;
   padding: 0;
   line-height: 1.5em;
@@ -70,12 +70,12 @@ body.marketing h6 {
 /* Links
 /*============================================================*/
 
-body.marketing a {
+body.mkt a {
   text-decoration: none;
   color: #1c5e9b;
   outline: none;
 }
-body.marketing a:hover {
+body.mkt a:hover {
   text-decoration: none;
   color: #c00;
   outline: none;
@@ -86,38 +86,38 @@ body.marketing a:hover {
 /* Sections
 /*============================================================*/
 
-body.marketing section.section,
-body.marketing article.section,
-body.marketing div.section {
+body.mkt section.section,
+body.mkt article.section,
+body.mkt div.section {
   border-bottom: 1px solid #ddd;
   padding: 3em 0;
   vertical-align: top;
 }
 
-body.marketing section.section header.section,
-body.marketing article.section header.section,
-body.marketing div.section header.section {
+body.mkt section.section header.section,
+body.mkt article.section header.section,
+body.mkt div.section header.section {
   padding: 0;
   margin: 0 0 3em;
   width: 950px;
 }
-body.marketing section.section header.section,
-body.marketing article.section header.section,
-body.marketing div.section header.section {
+body.mkt section.section header.section,
+body.mkt article.section header.section,
+body.mkt div.section header.section {
   margin: 0 0 3em;
   text-align: center;
 }
-body.marketing section.section header.section h1,
-body.marketing article.section header.section h1,
-body.marketing div.section header.section h1 {
+body.mkt section.section header.section h1,
+body.mkt article.section header.section h1,
+body.mkt div.section header.section h1 {
   text-align: center;
   font: 2.5em/1 Myriad Pro;
   letter-spacing: -1px;
   margin: 0 0 .25em;
 }
-body.marketing section.section header.section p,
-body.marketing article.section header.section p,
-body.marketing div.section header.section p {
+body.mkt section.section header.section p,
+body.mkt article.section header.section p,
+body.mkt div.section header.section p {
   color: #666;
   font: 1.25em/1.5 Myriad Pro;
   margin: 0;
@@ -127,7 +127,7 @@ body.marketing div.section header.section p {
 /* Footer
 /*============================================================*/
 
-body.marketing footer.site {
+body.mkt footer.site {
   line-height: 3em;
   height: 3em;
 }
@@ -137,22 +137,37 @@ body.marketing footer.site {
 /* Call to action
 /*============================================================*/
 
-body.marketing .section.call-to-action  {
+body.mkt .section.call-to-action  {
   text-align: center;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 
-body.marketing .call-to-action p {
-  font: 2em/50px Myriad Pro;
-  display: inline-block;
+body.mkt .call-to-action .text {
+  float: left;
+  width: 640px;
   padding-right: 1em;
+  text-align: left;
+  padding-left: 64px;
+  margin-top: -7px;
+}
+body.mkt .call-to-action p {
+  font: 2em/1.25 Myriad Pro;
   margin: 0;
 }
+body.mkt .call-to-action p.subtext {
+  font: 1em/1.5 Myriad Pro;
+  color: #666;
+}
+body.mkt .call-to-action p strong {
+  letter-spacing: -1px;
+}
 
-body.marketing .cta-button {
+body.mkt .cta-button {
   vertical-align: top;
   display: inline-block;
   padding: 0 0.7em;
-  font: 16px/30px sans-serif;
+  font: 20px/48px Myriad Pro;
   color: #fff;
   text-align: center;
   -webkit-font-smoothing: antialiased;
@@ -167,14 +182,9 @@ body.marketing .cta-button {
   border-radius: 4px;
   box-shadow: inset rgba(255,255,255,0.75) 0 0 1px,rgba(255,255,255,0.08) 0 1px 0;
   cursor: pointer;
-  line-height: 48px;
-  font-weight: bold;
   padding: 0 1em;
 }
-body.marketing .cta-button:hover {
-  color: #fff;
-}
-body.marketing .cta-button.cta-button-sm {
+body.mkt .cta-button.cta-button-sm {
   vertical-align: top;
   display: inline-block;
   padding: 8px 0.7em;
@@ -195,12 +205,30 @@ body.marketing .cta-button.cta-button-sm {
   cursor: pointer;
   font-weight: bold;
 }
+body.mkt .cta-button:hover,
+body.mkt .cta-button:focus {
+  color: #fff;
+  background-color: #0077e6;
+  background-image: linear-gradient(top, #1a90ff,#005cb3);
+  background-image: -o-linear-gradient(top, #1a90ff, #005cb3);
+  background-image: -moz-linear-gradient(top, #1a90ff, #005cb3);
+  background-image: -webkit-linear-gradient(top, #1a90ff, #005cb3);
+  background-image: -ms-linear-gradient(top, #1a90ff, #005cb3);
+}
+body.mkt .cta-button:active {
+  background-color: #0084ff;
+  background-image: linear-gradient(top, #0077e6,#004f99 45%);
+  background-image: -o-linear-gradient(top, #0077e6, #004f99 45%);
+  background-image: -moz-linear-gradient(top, #0077e6, #004f99 45%);
+  background-image: -webkit-linear-gradient(top, #0077e6, #004f99 45%);
+  background-image: -ms-linear-gradient(top, #0077e6, #004f99 45%);
+}
 
 /*============================================================*/
 /* input 
 /*============================================================*/
 
-body.marketing input.mkt-input {
+body.mkt input.mkt-input {
   width: 148px;
   padding: 7px 0.4em;
   font: 14px/1 sans-serif;
@@ -208,6 +236,6 @@ body.marketing input.mkt-input {
 }
 
 
-body.marketing input.mkt-input.search-long {
+body.mkt input.mkt-input.search-long {
   width: 160px;
 }
