@@ -30,7 +30,7 @@ http://projects.nylira.com/idtm2/mkt-tour.html
 * Dimensions for features screenshots: 240px wide, any height is okay
 * Implement tabbed layout
 
-http://projects.nylira.com/idtm2/mkt-misc
+misc
 * Improve the styling of the call to action
 * Add a hover and depressed effect to the buttons
 * Visual improvement tweaks
