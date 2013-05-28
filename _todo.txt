@@ -1,36 +1,37 @@
-blog.html
+http://projects.nylira.com/idtm2/mkt-blog.html
 * Email signup
-*   Fix join button's positioning
+*   Fix join button's position
 *   Add a red border for emphasis
 * Move sharing buttons to the end of the piece, above attribution
-* Make "attribution" smaller 
-* Follow - Add hard coded follow numbers
-* Ad unit - "sign up for idonethis"
+* Make author attribution text smaller 
+* Follow iDoneThis - Add follow numbers (currently hardcoded)
+* Update ad unit to "Sign Up for idonethis"
   
-casestudy.html
-* Put title text on image
+http://projects.nylira.com/idtm2/mkt-casestudy.html
+* Overlay title text on image
 * Move up the Company Profile
 
-customers.html
-* Make four columns
-* Hover overlay on the logo
-* Customer testimonials section
-* Customer logos  section
+http://projects.nylira.com/idtm2/mkt-customers.html
+* Add another columns of customer stories
+* Add a hover overlay on the logo
+* Add a customer testimonials section
+* Add a customer logos  section
 
-doc-index.html
-doc-single.html
+http://projects.nylira.com/idtm2/mkt-docs.html
+http://projects.nylira.com/idtm2/mkt-doc.html
 * Create nested menu items
 
-doc-single.html
+http://projects.nylira.com/idtm2/mkt-doc.html
 * Next/Prev article at bottom
 
-tour.html
+http://projects.nylira.com/idtm2/mkt-tour.html
 * Add secondary text to title
 * Dimensions for howto screenshots: 670x384 max, smaller is okay
 * Dimensions for features screenshots: 240px wide, any height is okay
 * Implement tabbed layout
 
-Misc
+http://projects.nylira.com/idtm2/mkt-misc
 * Improve the styling of the call to action
 * Add a hover and depressed effect to the buttons
-  Document and clean up the CSS
+* Visual improvement tweaks
+* Document and clean up the CSS -- namespaced the CSS to prevent conflicts

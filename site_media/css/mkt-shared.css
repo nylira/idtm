@@ -2,9 +2,6 @@
 /* Quick Defaults
 /*============================================================*/
 
-body.mkt header.site {
-}
-
 body.mkt #content {
   width: 950px;
   margin: 0 auto;
@@ -13,7 +10,17 @@ body.mkt #content {
   position: relative;
 }
 
-body.mkt div, button, a, img, li, ul, blockquote, cite, input, button, span {
+body.mkt div,
+body.mkt button, 
+body.mkt a,
+body.mkt img, 
+body.mkt li, 
+body.mkt ul, 
+body.mkt blockquote, 
+body.mkt cite, 
+body.mkt input, 
+body.mkt button, 
+body.mkt span {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -112,6 +119,7 @@ body.mkt article.section header.section h1,
 body.mkt div.section header.section h1 {
   text-align: center;
   font: 2.5em/1 Myriad Pro;
+  color: #000;
   letter-spacing: -1px;
   margin: 0 0 .25em;
 }

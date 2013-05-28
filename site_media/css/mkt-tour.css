@@ -2,27 +2,27 @@
 /* the tabs
 /*============================================================*/
 
-.section-tour-tabs ul {
+body.mkt .section-tour-tabs ul {
   width: 230px;
   float: left;
   list-style: none;
 }
-.section-tour-tabs ul li {
+body.mkt .section-tour-tabs ul li {
   border: 3px solid #ddd;
   margin: 0 0 1em;
 }
-.section-tour-tabs ul li.ui-state-active {
+body.mkt .section-tour-tabs ul li.ui-state-active {
   background: #1c5e9b;
 }
-.section-tour-tabs ul li a {
+body.mkt .section-tour-tabs ul li a {
   display: block;
   height: 80px;
   color: #333;
 }
-.section-tour-tabs ul li a:hover {
+body.mkt .section-tour-tabs ul li a:hover {
   background: #f7f7f7;
 }
-.section-tour-tabs ul li a .num {
+body.mkt .section-tour-tabs ul li a .num {
   display: block;
   line-height: 80px;
   float: left;
@@ -32,31 +32,31 @@
   width: 39px;
   text-align: center;
 }
-.section-tour-tabs ul li a .label {
+body.mkt .section-tour-tabs ul li a .label {
   display: block;
   float: left;
   font: 85%/1.25 sans-serif;
   width: 185px;
   padding: 1em;
 }
-.section-tour-tabs ul li a:hover .label {
+body.mkt .section-tour-tabs ul li a:hover .label {
   color: #1c5e9b;
 }
-.section-tour-tabs ul li.ui-state-active {
+body.mkt .section-tour-tabs ul li.ui-state-active {
   border-color: #c00;
 }
-.section-tour-tabs ul li.ui-state-active a {
+body.mkt .section-tour-tabs ul li.ui-state-active a {
   cursor: default;
   color: #333;
   background: #fff;
 }
-.section-tour-tabs ul li.ui-state-active a:hover {
+body.mkt .section-tour-tabs ul li.ui-state-active a:hover {
   background: #fff;
 }
-.section-tour-tabs ul li.ui-state-active a:hover .label {
+body.mkt .section-tour-tabs ul li.ui-state-active a:hover .label {
   color: #333;
 }
-.section-tour-tabs ul li.ui-state-active a .num {
+body.mkt .section-tour-tabs ul li.ui-state-active a .num {
   color: #c00;
 }
 
@@ -64,7 +64,7 @@
 /* the content
 /*============================================================*/
 
-.section-tour-tabs .tab-content {
+body.mkt .section-tour-tabs .tab-content {
   width: 704px;
   margin-left: 1em;
   float: left;
@@ -76,24 +76,24 @@
 /* the content - large images and subtext, for howto
 /*============================================================*/
 
-.section-tour-tabs .tab-content .image-large {
+body.mkt .section-tour-tabs .tab-content .image-large {
   width: 670px;
   height: 384px;
   display: table-cell;
 }
-.section-tour-tabs .tab-content .image-large,
-.section-tour-tabs .tab-content .subtext {
+body.mkt .section-tour-tabs .tab-content .image-large,
+body.mkt .section-tour-tabs .tab-content .subtext {
   text-align: center;
   vertical-align: middle;
 }
-.section-tour-tabs .tab-content .subtext {
+body.mkt .section-tour-tabs .tab-content .subtext {
   height: 76px;
 }
-.section-tour-tabs .tab-content .subtext p {
+body.mkt .section-tour-tabs .tab-content .subtext p {
   margin: 0 0 .25em;
   color: #666;
 }
-.section-tour-tabs .tab-content .subtext strong {
+body.mkt .section-tour-tabs .tab-content .subtext strong {
   font: 1.5em/1.5 Myriad Pro;
   letter-spacing: -1px;
   color: #333;
@@ -103,7 +103,7 @@
 /* the content - media, for features
 /*============================================================*/
 
-.section-tour-tabs .tab-content .media {
+body.mkt .section-tour-tabs .tab-content .media {
   clear: both;
   width: 670px;
   min-height: 100px;
@@ -111,59 +111,59 @@
   padding: 0 0 1em;
   margin: 0 0 1em;
 }
-.section-tour-tabs .tab-content .media .image {
+body.mkt .section-tour-tabs .tab-content .media .image {
   width: 244px;
   float: left;
 }
-.section-tour-tabs .tab-content .media .image img {
+body.mkt .section-tour-tabs .tab-content .media .image img {
   border: 2px solid #ddd;
   vertical-align: top;
 }
 
-.section-tour-tabs .tab-content .media .text {
+body.mkt .section-tour-tabs .tab-content .media .text {
   width: 416px;
   float: left;
   padding-left: 1em;
   padding-right: 3em;
 }
-.section-tour-tabs .tab-content .media .text h3 {
+body.mkt .section-tour-tabs .tab-content .media .text h3 {
   font: 1.25em/1.5 Myriad Pro;
   margin: 0 0 .5em;
   
 }
-.section-tour-tabs .tab-content .media .text p {
+body.mkt .section-tour-tabs .tab-content .media .text p {
   margin: 0 0 .625em;
   font-size: 14px;
   color: #666;
 }
-.section-tour-tabs .tab-content blockquote {
+body.mkt .section-tour-tabs .tab-content blockquote {
   border: 1px solid #ddd;
   padding: 1em 1.5em 1.5em;
   margin: 1em 0 0;
 }
-.section-tour-tabs .tab-content blockquote p {
+body.mkt .section-tour-tabs .tab-content blockquote p {
   font: 1.25em/1.5 Myriad Pro;
   margin: 0 0 1em;
 }
-.section-tour-tabs .tab-content blockquote p:before {content:"\201C"}
-.section-tour-tabs .tab-content blockquote p:after {content:"\201D"}
-.section-tour-tabs .tab-content cite {
+body.mkt .section-tour-tabs .tab-content blockquote p:before {content:"\201C"}
+body.mkt .section-tour-tabs .tab-content blockquote p:after {content:"\201D"}
+body.mkt .section-tour-tabs .tab-content cite {
   font-style: normal;
 }
-.section-tour-tabs .tab-content cite .image {
+body.mkt .section-tour-tabs .tab-content cite .image {
   float: left;
   width: 48px;
   height: 48px;
   background: #fff;
   margin-right: .75em
 }
-.section-tour-tabs .tab-content cite .text span{
+body.mkt .section-tour-tabs .tab-content cite .text span{
   display: block;
 }
-.section-tour-tabs .tab-content cite .text .name {
+body.mkt .section-tour-tabs .tab-content cite .text .name {
   color: #c00;
   font-weight: bold;
 }
-.section-tour-tabs .tab-content cite .text .title {
+body.mkt .section-tour-tabs .tab-content cite .text .title {
   color: #666;
 }

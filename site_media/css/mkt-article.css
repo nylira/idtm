@@ -2,24 +2,22 @@
 /* Article Defaults + Header
 /*============================================================*/
 
-article.marketing {
-}
-article.marketing header.article {
+body.mkt article.mkt header.article {
   width: 640px;
   margin-left: 310px;
   text-align: left;
   margin-bottom: 3em;
 }
-article.marketing header.article h1 {
+body.mkt article.mkt header.article h1 {
   font: 2.5em/1.25 Myriad Pro;
   margin: 0;
 }
-article.marketing header.article p {
+body.mkt article.mkt header.article p {
   color: #999;
   font: 1.25em/1.5 Myriad Pro;
   margin: 0;
 }
-article.marketing header.article .meta {
+body.mkt article.mkt header.article .meta {
   margin-left: -296px;
   margin-top: 0.5em;
   font: 1.25em/1.5 Myriad Pro;
@@ -27,10 +25,10 @@ article.marketing header.article .meta {
   float: left;
   list-style: none;
 }
-article.marketing header.article .meta a {
+body.mkt article.mkt header.article .meta a {
   color: #333;
 }
-article.marketing header.article .meta a:hover {
+body.mkt article.mkt header.article .meta a:hover {
   color: #c00;
 }
 
@@ -38,21 +36,21 @@ article.marketing header.article .meta a:hover {
 /* Case Study Header
 /*============================================================*/
 
-article.marketing header.article.article-image.section {
+body.mkt article.mkt header.article.article-image.section {
   position: relative;
   width: 950px;
   height: 420px;
   margin: 0 0 3em;
   text-align: left;
 }
-article.marketing header.article.article-image.section .titles {
+body.mkt article.mkt header.article.article-image.section .titles {
   position: absolute;
   top: 140px;
   left: 0;
   width: 950px;
 }
-article.marketing header.article.article-image.section h1,
-article.marketing header.article.article-image.section h2 {
+body.mkt article.mkt header.article.article-image.section h1,
+body.mkt article.mkt header.article.article-image.section h2 {
   display: inline-block;
   font-weight: normal;
   background: #000;
@@ -60,17 +58,17 @@ article.marketing header.article.article-image.section h2 {
   color: #fff;
   margin: 0;
 }
-article.marketing header.article.article-image.section h2 {
+body.mkt article.mkt header.article.article-image.section h2 {
   font: 1.25em/1.25 Myriad Pro;
   color: #999;
   padding: 16px 24px 0;
 }
-article.marketing header.article.article-image.section h1 {
+body.mkt article.mkt header.article.article-image.section h1 {
   font: 3em/1.25 Myriad Pro;
   font-size: 2em;
   padding: 16px 24px;
 }
-article.marketing header.article.article-image.section img {
+body.mkt article.mkt header.article.article-image.section img {
   position: absolute;
   top: 0;
   left: 0;
@@ -81,18 +79,18 @@ article.marketing header.article.article-image.section img {
 /* Article Body
 /*============================================================*/
 
-article.marketing .body {
+body.mkt article.mkt .body {
   width: 640px;
   margin-left: 310px;
 }
-article.marketing .body h2,
-article.marketing .body h3 {
+body.mkt article.mkt .body h2,
+body.mkt article.mkt .body h3 {
   font: 1.5em/1.5 Myriad Pro;
   font-weight: bold;
   margin: 1.5em 0 .75em;
 }
 
-article.marketing .body p.intro {
+body.mkt article.mkt .body p.intro {
   font: 1.5em/1.5 Myriad Pro;
   border-bottom: 1px solid #ddd;
   padding-bottom: 1.5em;
@@ -102,19 +100,19 @@ article.marketing .body p.intro {
 /* Article Body Lists
 /*============================================================*/
 
-article.marketing .body ul,
-article.marketing .body ol {
+body.mkt article.mkt .body ul,
+body.mkt article.mkt .body ol {
   padding-left: 2.5em;
   margin: 0 0 1.5em;
 }
-article.marketing .body ul li,
-article.marketing .body ol li {
+body.mkt article.mkt .body ul li,
+body.mkt article.mkt .body ol li {
   margin: 0 0 .5em;
 }
-article.marketing ol {
+body.mkt article.mkt ol {
   list-style: decimal;
 }
-article.marketing ul {
+body.mkt article.mkt ul {
   list-style: disc;
 }
 
@@ -122,58 +120,58 @@ article.marketing ul {
 /* Article Body Blockquote/Images
 /*============================================================*/
 
-article.marketing .body .image {
+body.mkt article.mkt .body .image {
   margin-bottom: 1.5em;
 }
 
-article.marketing .body .image.image-header {
+body.mkt article.mkt .body .image.image-header {
   margin-left: -310px;
 }
-article.marketing .body .float-left {
+body.mkt article.mkt .body .float-left {
   margin-left: -310px;
   float: left;
   margin-right: 1.5em;
 }
-article.marketing .body .float-right {
+body.mkt article.mkt .body .float-right {
   float: right;
   margin-left: 1.5em;
 }
-article.marketing .body .image p {
+body.mkt article.mkt .body .image p {
   font: .75em/1.5 sans-serif;
   margin: 0;
 }
 
-article.marketing .body blockquote {
+body.mkt article.mkt .body blockquote {
   border: 1px solid #ddd;
   padding: 1em 1.5em 1.5em;
   margin: 0 0 1.5em;
 }
-article.marketing .body blockquote.noattrib p {
+body.mkt article.mkt .body blockquote.noattrib p {
   margin: 0;
 }
-article.marketing .body blockquote p {
+body.mkt article.mkt .body blockquote p {
   font: 1.25em/1.5 Myriad Pro;
 }
-article.marketing .body blockquote p:before {content:"\201C"}
-article.marketing .body blockquote p:after {content:"\201D"}
-article.marketing .body cite {
+body.mkt article.mkt .body blockquote p:before {content:"\201C"}
+body.mkt article.mkt .body blockquote p:after {content:"\201D"}
+body.mkt article.mkt .body cite {
   font-style: normal;
 }
-article.marketing .body cite .image {
+body.mkt article.mkt .body cite .image {
   float: left;
   width: 48px;
   height: 48px;
   background: #fff;
   margin: 0 .75em 0 0;
 }
-article.marketing .body cite .text span{
+body.mkt article.mkt .body cite .text span{
   display: block;
 }
-article.marketing .body cite .text .name {
+body.mkt article.mkt .body cite .text .name {
   color: #c00;
   font-weight: bold;
 }
-article.marketing .body cite .text .title {
+body.mkt article.mkt .body cite .text .title {
   color: #666;
 }
 
@@ -181,58 +179,58 @@ article.marketing .body cite .text .title {
 /* Article Sidebar (Aside)
 /*============================================================*/
 
-aside.marketing {
+body.mkt aside.mkt {
   float: left;
   width: 240px;
 }
 
-aside.marketing section {
+body.mkt aside.mkt section {
   font: 14px/1.5 sans-serif;
   width: 240px;
   margin: 0 0 3em;
 }
-aside.marketing section {
+body.mkt aside.mkt section {
   border-top: 3px solid #333;
 }
 
-aside.marketing section img {
+body.mkt aside.mkt section img {
   vertical-align: top;
 }
-aside.marketing section header {
+body.mkt aside.mkt section header {
   border: 1px solid #ddd;
   border-top: none;
   padding: .875em 1em;
 }
-aside.marketing section header h4 {
+body.mkt aside.mkt section header h4 {
   font: bold 14px/1.25 sans-serif;
 }
-aside.marketing .content  {
+body.mkt aside.mkt .content  {
   border: 1px solid #ddd;
   border-top: none;
   padding: .75em 0;
 }
-aside.marketing .content ul {
+body.mkt aside.mkt .content ul {
   padding: 0;
   margin: 0;
 }
 
-aside.marketing .content li {
+body.mkt aside.mkt .content li {
   margin: 0;
   list-style: none;
 }
-aside.marketing .content li.padding {
+body.mkt aside.mkt .content li.padding {
   padding: .3725em 1em;
 }
-aside.marketing .content li a {
+body.mkt aside.mkt .content li a {
   display: block;
   padding: .3725em 1em;
   line-height: 1.25em;
 }
 
-aside.marketing .content ul ul li a{
+body.mkt aside.mkt .content ul ul li a{
   padding-left: 2em
 }
-aside.marketing .content li a.active {
+body.mkt aside.mkt .content li a.active {
   background: #1c5e9b;
   color: #fff;
   font-weight: bold;
@@ -248,15 +246,19 @@ aside.marketing .content li a.active {
   cursor: default;
 
 }
-aside.marketing .content li a.active:hover {
+body.mkt aside.mkt .content li a.active:hover {
   text-decoration: none;
 }
 
-body.casestudy aside.marketing .content li {
+/*============================================================*/
+/* Case study sidebar box padding fix
+/*============================================================*/
+
+body.mkt-casestudy aside.mkt .content li {
   padding: .3725em 1em;
   list-style: none;
 }
-body.casestudy aside.marketing .content li a {
+body.mkt-casestudy aside.mkt .content li a {
   display: inline;
   padding: 0;
   line-height: auto;
@@ -266,21 +268,21 @@ body.casestudy aside.marketing .content li a {
 /* Article #mkt-subscribe sidebar box
 /*============================================================*/
 
-aside.marketing section#mkt-subscribe {
+body.mkt aside.mkt section#mkt-subscribe {
   border-color: #c00;
   border: 3px solid #c00;
 }
-aside.marketing section#mkt-subscribe h4 {
+body.mkt aside.mkt section#mkt-subscribe h4 {
   font: 28px/1.25 Myriad Pro;
 }
-aside.marketing section#mkt-subscribe h4 strong {
+body.mkt aside.mkt section#mkt-subscribe h4 strong {
   letter-spacing: -1px;
 }
-aside.marketing section#mkt-subscribe .content {
+body.mkt aside.mkt section#mkt-subscribe .content {
   padding: 1.25em;
   border: none;
 }
-aside.marketing section#mkt-subscribe .content label {
+body.mkt aside.mkt section#mkt-subscribe .content label {
   display: block;
   margin: 0 0 1em;
 }
@@ -289,44 +291,44 @@ aside.marketing section#mkt-subscribe .content label {
 /* Article #mkt-social 
 /*============================================================*/
 
-aside.marketing section#mkt-social .content {
+body.mkt aside.mkt section#mkt-social .content {
   padding: 1em 7px;
 }
-aside.marketing section#mkt-social .content ul {
+body.mkt aside.mkt section#mkt-social .content ul {
   padding: 0;
 }
-aside.marketing section#mkt-social .content li {
+body.mkt aside.mkt section#mkt-social .content li {
   width: 56px;
   float: left;
   padding: 0;
   text-align: center;
 }
 
-aside.marketing section#mkt-social .content li a {
+body.mkt aside.mkt section#mkt-social .content li a {
   text-decoration: none;
   display: inline;
   padding: 0;
 }
-aside.marketing section#mkt-social .content li a .logo {
+body.mkt aside.mkt section#mkt-social .content li a .logo {
   display: inline-block;
   margin: 0 0 .5em;
 }
-aside.marketing section#mkt-social .content li a:hover .label {
+body.mkt aside.mkt section#mkt-social .content li a:hover .label {
   color: #c00;
   text-decoration: none;
 }
-aside.marketing section#mkt-social .content li a:hover .label.num {
+body.mkt aside.mkt section#mkt-social .content li a:hover .label.num {
   text-decoration: none;
   border-color: #c00;
 }
-aside.marketing section#mkt-social .content li a .label {
+body.mkt aside.mkt section#mkt-social .content li a .label {
   color: #666;
   font: 11px/1.5 sans-serif;
   text-align: center;
   display: block;
   margin: 0 0 .5em;
 }
-aside.marketing section#mkt-social .content li a .label.num {
+body.mkt aside.mkt section#mkt-social .content li a .label.num {
   font-size: 10px;
   border: 1px solid #ddd;
   line-height: 2em;
@@ -337,18 +339,18 @@ aside.marketing section#mkt-social .content li a .label.num {
 /* Article #idt-signup 
 /*============================================================*/
 
-section#idt-signup header {
+body.mkt section#idt-signup header {
   padding-bottom: 0;
 }
-section#idt-signup h4 {
+body.mkt section#idt-signup h4 {
   font: 18px/1.25 Myriad Pro;
 }
-section#idt-signup h4 strong {
+body.mkt section#idt-signup h4 strong {
   font-size: 2em;
   font-weight: bold;
   letter-spacing: -1px;
 }
-section#idt-signup .content {
+body.mkt section#idt-signup .content {
   padding: 1em;
 }
 
@@ -356,7 +358,7 @@ section#idt-signup .content {
 /* Article next and previous
 /*============================================================*/
 
-ul#article-nav {
+body.mkt ul#article-nav {
   list-style: none;
   padding: 0;
   margin: 4.5em 0 0;
@@ -364,37 +366,37 @@ ul#article-nav {
   border-top: 3px solid #333;
 }
 
-ul#article-nav li {
+body.mkt ul#article-nav li {
   float: left;
   width: 319px;
   margin: 0;
 }
-ul#article-nav li.prev {
+body.mkt ul#article-nav li.prev {
   border-right: 1px solid #ddd;
 }
-ul#article-nav li.next {
+body.mkt ul#article-nav li.next {
   text-align: right;
 }
-ul#article-nav li a {
+body.mkt ul#article-nav li a {
   display: block;
   width: 319px;
   padding: 1em;
 }
-ul#article-nav li.prev a {
+body.mkt ul#article-nav li.prev a {
   padding-right: 2em;
 }
-ul#article-nav li.next a {
+body.mkt ul#article-nav li.next a {
   padding-left: 2em;
 }
-ul#article-nav li a p {
+body.mkt ul#article-nav li a p {
   margin: 0;
 }
-ul#article-nav li a .label {
+body.mkt ul#article-nav li a .label {
   color: #666;
   margin: 0 0 .75em;
   font-size: 75%;
 }
-ul#article-nav li a .title {
+body.mkt ul#article-nav li a .title {
   font: 1.25em/1.25 Myriad Pro;
 }
 
@@ -403,7 +405,7 @@ ul#article-nav li a .title {
 /* Article #mkt-share 
 /*============================================================*/
 
-ul#mkt-share  {
+body.mkt ul#mkt-share  {
   border-top: 3px solid #333;
   border-bottom: 1px solid #ddd;
   list-style: none;
@@ -413,7 +415,7 @@ ul#mkt-share  {
   border-right: 1px solid #ddd;
 }
 
-ul#mkt-share li {
+body.mkt ul#mkt-share li {
   float: left;
   width: 159px;
   line-height: 24px;
@@ -423,7 +425,7 @@ ul#mkt-share li {
   padding: 1.5em 0 .5em;
   margin: 0;
 }
-ul#mkt-share li .logo {
+body.mkt ul#mkt-share li .logo {
   display: block;
 }
 
@@ -431,13 +433,13 @@ ul#mkt-share li .logo {
 /* Article bio
 /*============================================================*/
 
-article.marketing .bio-bottom {
+body.mkt article.mkt .bio-bottom {
   border: 1px solid #ddd;
   padding: 1.5em;
   background: rgba(0,0,0,0.04);
   margin: 3em 0 0;
 }
-article.marketing .bio-bottom img {
+body.mkt article.mkt .bio-bottom img {
   float: left;
   margin-right: 1.0em;
   padding: 5px;
