@@ -182,6 +182,7 @@ body.mkt article.mkt .body cite .text .title {
 body.mkt aside.mkt {
   float: left;
   width: 240px;
+  display: inline;
 }
 
 body.mkt aside.mkt section {
