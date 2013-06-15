@@ -1,166 +1,171 @@
-/*============================================================*/
-/* Variables 
-/*============================================================*/
+@import "mkt-variables";
+
 /*============================================================*/
 /* the tabs
 /*============================================================*/
+
 body.mkt .section-tour-tabs ul {
   width: 230px;
   float: left;
-  list-style: none; }
-
+  list-style: none;
+}
 body.mkt .section-tour-tabs ul li {
-  border: 3px solid #dddddd;
-  margin: 0 0 1em; }
-
+  border: 3px solid $mkt-bc;
+  margin: 0 0 1em;
+}
 body.mkt .section-tour-tabs ul li.ui-state-active {
-  background: #1c5e9b; }
-
+  background: $mkt-blue;
+}
 body.mkt .section-tour-tabs ul li a {
   display: block;
   height: 80px;
-  color: #333333; }
-
+  color: $mkt-txt;
+}
 body.mkt .section-tour-tabs ul li a:hover {
-  background: #f7f7f7; }
-
+  background: #f7f7f7;
+}
 body.mkt .section-tour-tabs ul li a .num {
   display: block;
   line-height: 80px;
   float: left;
-  color: #1c5e9b;
+  color: $mkt-blue;
   font-size: 1.5em;
-  border-right: 1px solid #dddddd;
+  border-right: 1px solid $mkt-bc;
   width: 39px;
-  text-align: center; }
-
+  text-align: center;
+}
 body.mkt .section-tour-tabs ul li a .label {
   display: block;
   float: left;
-  font: 85%/1.25 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 85%/1.25 $mkt-sans;
   width: 185px;
-  padding: 1em; }
-
+  padding: 1em;
+}
 body.mkt .section-tour-tabs ul li a:hover .label {
-  color: #1c5e9b; }
-
+  color: $mkt-blue;
+}
 body.mkt .section-tour-tabs ul li.ui-state-active {
-  border-color: #cc0000; }
-
+  border-color: $mkt-red;
+}
 body.mkt .section-tour-tabs ul li.ui-state-active a {
   cursor: default;
-  color: #333333;
-  background: #fff; }
-
+  color: $mkt-txt;
+  background: #fff;
+}
 body.mkt .section-tour-tabs ul li.ui-state-active a:hover {
-  background: #fff; }
-
+  background: #fff;
+}
 body.mkt .section-tour-tabs ul li.ui-state-active a:hover .label {
-  color: #333333; }
-
+  color: $mkt-txt;
+}
 body.mkt .section-tour-tabs ul li.ui-state-active a .num {
-  color: #cc0000; }
+  color: $mkt-red;
+}
 
 /*============================================================*/
 /* the content
 /*============================================================*/
+
 body.mkt .section-tour-tabs .tab-content {
   width: 704px;
   margin-left: 1em;
   float: left;
-  border: 1px solid #dddddd;
-  padding: 1em; }
+  border: 1px solid $mkt-bc;
+  padding: 1em;
+}
 
 /*============================================================*/
 /* the content - large images and subtext, for howto
 /*============================================================*/
+
 body.mkt .section-tour-tabs .tab-content .image-large {
   width: 670px;
   height: 384px;
-  display: table-cell; }
-
+  display: table-cell;
+}
 body.mkt .section-tour-tabs .tab-content .image-large,
 body.mkt .section-tour-tabs .tab-content .subtext {
   text-align: center;
-  vertical-align: middle; }
-
+  vertical-align: middle;
+}
 body.mkt .section-tour-tabs .tab-content .subtext {
-  height: 76px; }
-
+  height: 76px;
+}
 body.mkt .section-tour-tabs .tab-content .subtext p {
   margin: 0 0 .25em;
-  color: #1c5e9b; }
-
+  color: $mkt-blue;
+}
 body.mkt .section-tour-tabs .tab-content .subtext strong {
-  font: 1.5em/1.5 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 1.5em/1.5 $mkt-myriad;
   letter-spacing: -1px;
-  color: #333333; }
+  color: $mkt-txt;
+}
 
 /*============================================================*/
 /* the content - media, for features
 /*============================================================*/
+
 body.mkt .section-tour-tabs .tab-content .media {
   clear: both;
   width: 670px;
   min-height: 100px;
-  border-bottom: 1px dotted #dddddd;
+  border-bottom: 1px dotted $mkt-bc;
   padding: 0 0 1em;
-  margin: 0 0 1em; }
-
+  margin: 0 0 1em;
+}
 body.mkt .section-tour-tabs .tab-content .media .image {
   width: 244px;
-  float: left; }
-
+  float: left;
+}
 body.mkt .section-tour-tabs .tab-content .media .image img {
-  border: 2px solid #dddddd;
-  vertical-align: top; }
+  border: 2px solid $mkt-bc;
+  vertical-align: top;
+}
 
 body.mkt .section-tour-tabs .tab-content .media .text {
   width: 416px;
   float: left;
   padding-left: 1em;
-  padding-right: 3em; }
-
+  padding-right: 3em;
+}
 body.mkt .section-tour-tabs .tab-content .media .text h3 {
-  font: 1.25em/1.5 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  margin: 0 0 .5em; }
-
+  font: 1.25em/1.5 $mkt-myriad;
+  margin: 0 0 .5em;
+  
+}
 body.mkt .section-tour-tabs .tab-content .media .text p {
   margin: 0 0 .625em;
   font-size: 14px;
-  color: #1c5e9b; }
-
+  color: $mkt-blue;
+}
 body.mkt .section-tour-tabs .tab-content blockquote {
-  border: 1px solid #dddddd;
+  border: 1px solid $mkt-bc;
   padding: 1em 1.5em 1.5em;
-  margin: 1em 0 0; }
-
+  margin: 1em 0 0;
+}
 body.mkt .section-tour-tabs .tab-content blockquote p {
-  font: 1.25em/1.5 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  margin: 0 0 1em; }
-
-body.mkt .section-tour-tabs .tab-content blockquote p:before {
-  content: "\201C"; }
-
-body.mkt .section-tour-tabs .tab-content blockquote p:after {
-  content: "\201D"; }
-
+  font: 1.25em/1.5 $mkt-myriad;
+  margin: 0 0 1em;
+}
+body.mkt .section-tour-tabs .tab-content blockquote p:before {content:"\201C"}
+body.mkt .section-tour-tabs .tab-content blockquote p:after {content:"\201D"}
 body.mkt .section-tour-tabs .tab-content cite {
-  font-style: normal; }
-
+  font-style: normal;
+}
 body.mkt .section-tour-tabs .tab-content cite .image {
   float: left;
   width: 48px;
   height: 48px;
   background: #fff;
-  margin-right: 0.75em; }
-
-body.mkt .section-tour-tabs .tab-content cite .text span {
-  display: block; }
-
+  margin-right: .75em
+}
+body.mkt .section-tour-tabs .tab-content cite .text span{
+  display: block;
+}
 body.mkt .section-tour-tabs .tab-content cite .text .name {
-  color: #cc0000;
-  font-weight: bold; }
-
+  color: $mkt-red;
+  font-weight: bold;
+}
 body.mkt .section-tour-tabs .tab-content cite .text .title {
-  color: #1c5e9b; }
+  color: $mkt-blue;
+}

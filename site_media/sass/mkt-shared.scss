@@ -1,66 +1,68 @@
-/*============================================================*/
-/* Variables 
-/*============================================================*/
+@import "mkt-variables";
+
 /*============================================================*/
 /* Quick Defaults
 /*============================================================*/
+
 body.mkt #content {
   width: 950px;
   margin: 0 auto;
-  color: #333333;
-  font: 16px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
-  position: relative; }
+  color: $mkt-txt;
+  font: 16px/1.5 $mkt-sans;
+  position: relative;
+}
 
 body.mkt div,
-body.mkt button,
+body.mkt button, 
 body.mkt a,
-body.mkt img,
-body.mkt li,
-body.mkt ul,
-body.mkt blockquote,
-body.mkt cite,
-body.mkt input,
-body.mkt button,
+body.mkt img, 
+body.mkt li, 
+body.mkt ul, 
+body.mkt blockquote, 
+body.mkt cite, 
+body.mkt input, 
+body.mkt button, 
 body.mkt span {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
-  -ie-box-sizing: border-box; }
+  -ie-box-sizing: border-box;
+}
 
 /*============================================================*/
 /* Clearfix
 /*============================================================*/
+
 body.mkt .clearfix:after {
   visibility: hidden;
   display: block;
   font-size: 0;
   content: " ";
   clear: both;
-  height: 0; }
-
-body.mkt .clearfix {
-  display: inline-table; }
-
+  height: 0;
+}
+body.mkt .clearfix { display: inline-table; }
 /* Hides from IE-mac \*/
-* html body.mkt .clearfix {
-  height: 1%; }
-
-body.mkt .clearfix {
-  display: block; }
-
+* html body.mkt .clearfix { height: 1%; }
+body.mkt .clearfix { display: block; }
 /* End hide from IE-mac */
+
+
 /*============================================================*/
 /* Typography
 /*============================================================*/
+
 body.mkt ul,
 body.mkt ol {
   list-style: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 body.mkt p {
-  margin: 0 0 1.5em; }
+  margin: 0 0 1.5em;
+}
 
 body.mkt h1,
 body.mkt h2,
@@ -70,74 +72,86 @@ body.mkt h5,
 body.mkt h6 {
   margin: 0;
   padding: 0;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+}
 
 /*============================================================*/
 /* Links
 /*============================================================*/
+
 body.mkt a {
   text-decoration: none;
-  color: #1c5e9b;
-  outline: none; }
-
+  color: $mkt-blue;
+  outline: none;
+}
 body.mkt a:hover {
   text-decoration: none;
-  color: #cc0000;
-  outline: none; }
+  color: $mkt-red;
+  outline: none;
+}
+
 
 /*============================================================*/
 /* Sections
 /*============================================================*/
+
 body.mkt section.section,
 body.mkt article.section,
 body.mkt div.section {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid $mkt-bc;
   padding: 3em 0;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 body.mkt section.section header.section,
 body.mkt article.section header.section,
 body.mkt div.section header.section {
   padding: 0;
   margin: 0 0 3em;
-  width: 950px; }
-
+  width: 950px;
+}
 body.mkt section.section header.section,
 body.mkt article.section header.section,
 body.mkt div.section header.section {
   margin: 0 0 3em;
-  text-align: center; }
-
+  text-align: center;
+}
 body.mkt section.section header.section h1,
 body.mkt article.section header.section h1,
 body.mkt div.section header.section h1 {
   text-align: center;
-  font: 2.5em/1 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 2.5em/1 $mkt-myriad;
   color: #000;
   letter-spacing: -1px;
-  margin: 0 0 .25em; }
-
+  margin: 0 0 .25em;
+}
 body.mkt section.section header.section p,
 body.mkt article.section header.section p,
 body.mkt div.section header.section p {
-  color: #666666;
-  font: 1.25em/1.5 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  margin: 0; }
+  color: $mkt-med;
+  font: 1.25em/1.5 $mkt-myriad;
+  margin: 0;
+}
 
 /*============================================================*/
 /* Footer
 /*============================================================*/
+
 body.mkt footer.site {
   line-height: 3em;
-  height: 3em; }
+  height: 3em;
+}
+
 
 /*============================================================*/
 /* Call to action
 /*============================================================*/
-body.mkt .section.call-to-action {
+
+body.mkt .section.call-to-action  {
   text-align: center;
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd; }
+  border-left: 1px solid $mkt-bc;
+  border-right: 1px solid $mkt-bc;
+}
 
 body.mkt .call-to-action .text {
   float: left;
@@ -145,87 +159,93 @@ body.mkt .call-to-action .text {
   padding-right: 1em;
   text-align: left;
   padding-left: 64px;
-  margin-top: -7px; }
-
+  margin-top: -7px;
+}
 body.mkt .call-to-action p {
-  font: 2em/1.25 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  margin: 0; }
-
+  font: 2em/1.25 $mkt-myriad;
+  margin: 0;
+}
 body.mkt .call-to-action p.subtext {
-  font: 1em/1.5 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  color: #666666; }
-
+  font: 1em/1.5 $mkt-myriad;
+  color: $mkt-med;
+}
 body.mkt .call-to-action p strong {
-  letter-spacing: -1px; }
+  letter-spacing: -1px;
+}
 
 body.mkt .cta-button {
   vertical-align: top;
   display: inline-block;
   padding: 0 0.7em;
-  font: 20px/48px "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 20px/48px $mkt-myriad;
   color: #fff;
   text-align: center;
   -webkit-font-smoothing: antialiased;
-  text-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  text-shadow: rgba(0,0,0,0.5) 0 0 5px;
   background-color: #0069cc;
-  background-image: linear-gradient(top, #0084ff, #004f99);
+  background-image: linear-gradient(top, #0084ff,#004f99);
   background-image: -o-linear-gradient(top, #0084ff, #004f99);
   background-image: -moz-linear-gradient(top, #0084ff, #004f99);
   background-image: -webkit-linear-gradient(top, #0084ff, #004f99);
   background-image: -ms-linear-gradient(top, #0084ff, #004f99);
-  border: 1px solid #1c5e9b;
+  border: 1px solid $mkt-blue;
   border-radius: 4px;
-  box-shadow: inset rgba(255, 255, 255, 0.75) 0 0 1px, rgba(255, 255, 255, 0.08) 0 1px 0;
+  box-shadow: inset rgba(255,255,255,0.75) 0 0 1px,rgba(255,255,255,0.08) 0 1px 0;
   cursor: pointer;
-  padding: 0 1em; }
-
+  padding: 0 1em;
+}
 body.mkt .cta-button.cta-button-sm {
   vertical-align: top;
   display: inline-block;
   padding: 8px 0.7em;
-  font: 14px/1 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 14px/1 $mkt-sans;
   color: #fff;
   text-align: center;
   -webkit-font-smoothing: antialiased;
-  text-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  text-shadow: rgba(0,0,0,0.5) 0 0 5px;
   background-color: #0069cc;
-  background-image: linear-gradient(top, #0084ff, #004f99);
+  background-image: linear-gradient(top, #0084ff,#004f99);
   background-image: -o-linear-gradient(top, #0084ff, #004f99);
   background-image: -moz-linear-gradient(top, #0084ff, #004f99);
   background-image: -webkit-linear-gradient(top, #0084ff, #004f99);
   background-image: -ms-linear-gradient(top, #0084ff, #004f99);
-  border: 1px solid #1c5e9b;
+  border: 1px solid $mkt-blue;
   border-radius: 4px;
-  box-shadow: inset rgba(255, 255, 255, 0.75) 0 0 1px, rgba(255, 255, 255, 0.08) 0 1px 0;
+  box-shadow: inset rgba(255,255,255,0.75) 0 0 1px,rgba(255,255,255,0.08) 0 1px 0;
   cursor: pointer;
-  font-weight: bold; }
-
+  font-weight: bold;
+}
 body.mkt .cta-button:hover,
 body.mkt .cta-button:focus {
   color: #fff;
   background-color: #0077e6;
-  background-image: linear-gradient(top, #1a90ff, #005cb3);
+  background-image: linear-gradient(top, #1a90ff,#005cb3);
   background-image: -o-linear-gradient(top, #1a90ff, #005cb3);
   background-image: -moz-linear-gradient(top, #1a90ff, #005cb3);
   background-image: -webkit-linear-gradient(top, #1a90ff, #005cb3);
-  background-image: -ms-linear-gradient(top, #1a90ff, #005cb3); }
-
+  background-image: -ms-linear-gradient(top, #1a90ff, #005cb3);
+}
 body.mkt .cta-button:active {
   background-color: #0084ff;
-  background-image: linear-gradient(top, #0077e6, #004f99 45%);
+  background-image: linear-gradient(top, #0077e6,#004f99 45%);
   background-image: -o-linear-gradient(top, #0077e6, #004f99 45%);
   background-image: -moz-linear-gradient(top, #0077e6, #004f99 45%);
   background-image: -webkit-linear-gradient(top, #0077e6, #004f99 45%);
-  background-image: -ms-linear-gradient(top, #0077e6, #004f99 45%); }
+  background-image: -ms-linear-gradient(top, #0077e6, #004f99 45%);
+}
 
 /*============================================================*/
 /* input 
 /*============================================================*/
+
 body.mkt input.mkt-input {
   width: 148px;
   padding: 7px 0.4em;
-  font: 14px/1 "Helvetica Neue", Arial, Helvetica, sans-serif;
-  border: 1px solid #dddddd; }
+  font: 14px/1 $mkt-sans;
+  border: 1px solid $mkt-bc;
+}
+
 
 body.mkt input.mkt-input.search-long {
-  width: 160px; }
+  width: 160px;
+}

@@ -1,425 +1,460 @@
-/*============================================================*/
-/* Variables 
-/*============================================================*/
+@import "mkt-variables";
+
 /*============================================================*/
 /* Article Defaults + Header
 /*============================================================*/
+
 body.mkt article.mkt header.article {
   width: 640px;
   margin-left: 310px;
   text-align: left;
-  margin-bottom: 3em; }
-
+  margin-bottom: 3em;
+}
 body.mkt article.mkt header.article h1 {
-  font: 2.5em/1.25 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  margin: 0; }
-
+  font: 2.5em/1.25 $mkt-myriad;
+  margin: 0;
+}
 body.mkt article.mkt header.article p {
-  color: #999999;
-  font: 1.25em/1.5 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  margin: 0; }
-
+  color: $mkt-light;
+  font: 1.25em/1.5 $mkt-myriad;
+  margin: 0;
+}
 body.mkt article.mkt header.article .meta {
   margin-left: -296px;
   margin-top: 0.5em;
-  font: 1.25em/1.5 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  color: #666666;
+  font: 1.25em/1.5 $mkt-myriad;
+  color: $mkt-med;
   float: left;
-  list-style: none; }
-
+  list-style: none;
+}
 body.mkt article.mkt header.article .meta a {
-  color: #333333; }
-
+  color: $mkt-txt;
+}
 body.mkt article.mkt header.article .meta a:hover {
-  color: #cc0000; }
+  color: $mkt-red;
+}
 
 /*============================================================*/
 /* Case Study Header
 /*============================================================*/
+
 body.mkt article.mkt header.article.article-image.section {
   position: relative;
   width: 950px;
   height: 420px;
   margin: 0 0 3em;
-  text-align: left; }
-
+  text-align: left;
+}
 body.mkt article.mkt header.article.article-image.section .titles {
   position: absolute;
   top: 140px;
   left: 0;
-  width: 950px; }
-
+  width: 950px;
+}
 body.mkt article.mkt header.article.article-image.section h1,
 body.mkt article.mkt header.article.article-image.section h2 {
   display: inline-block;
   font-weight: normal;
   background: #000;
-  background: rgba(0, 0, 0, 0.75);
+  background: hsla(0,0%,0%,.75);
   color: #fff;
-  margin: 0; }
-
+  margin: 0;
+}
 body.mkt article.mkt header.article.article-image.section h2 {
-  font: 1.25em/1.25 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  color: #999999;
-  padding: 16px 24px 0; }
-
+  font: 1.25em/1.25 $mkt-myriad;
+  color: $mkt-light;
+  padding: 16px 24px 0;
+}
 body.mkt article.mkt header.article.article-image.section h1 {
-  font: 3em/1.25 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 3em/1.25 $mkt-myriad;
   font-size: 2em;
-  padding: 16px 24px; }
-
+  padding: 16px 24px;
+}
 body.mkt article.mkt header.article.article-image.section img {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1; }
+  z-index: -1;
+}
 
 /*============================================================*/
 /* Article Body
 /*============================================================*/
+
 body.mkt article.mkt .body {
   width: 640px;
-  margin-left: 310px; }
-
+  margin-left: 310px;
+}
 body.mkt article.mkt .body h2,
 body.mkt article.mkt .body h3 {
-  font: 1.5em/1.5 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 1.5em/1.5 $mkt-myriad;
   font-weight: bold;
-  margin: 1.5em 0 .75em; }
+  margin: 1.5em 0 .75em;
+}
 
 body.mkt article.mkt .body p.intro {
-  font: 1.5em/1.5 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  border-bottom: 1px solid #dddddd;
-  padding-bottom: 1.5em; }
+  font: 1.5em/1.5 $mkt-myriad;
+  border-bottom: 1px solid $mkt-bc;
+  padding-bottom: 1.5em;
+}
 
 /*============================================================*/
 /* Article Body Lists
 /*============================================================*/
+
 body.mkt article.mkt .body ul,
 body.mkt article.mkt .body ol {
   padding-left: 2.5em;
-  margin: 0 0 1.5em; }
-
+  margin: 0 0 1.5em;
+}
 body.mkt article.mkt .body ul li,
 body.mkt article.mkt .body ol li {
-  margin: 0 0 .5em; }
-
+  margin: 0 0 .5em;
+}
 body.mkt article.mkt ol {
-  list-style: decimal; }
-
+  list-style: decimal;
+}
 body.mkt article.mkt ul {
-  list-style: disc; }
+  list-style: disc;
+}
 
 /*============================================================*/
 /* Article Body Blockquote/Images
 /*============================================================*/
+
 body.mkt article.mkt .body .image {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+}
 
 body.mkt article.mkt .body .image.image-header {
-  margin-left: -310px; }
-
+  margin-left: -310px;
+}
 body.mkt article.mkt .body .float-left {
   margin-left: -310px;
   float: left;
-  margin-right: 1.5em; }
-
+  margin-right: 1.5em;
+}
 body.mkt article.mkt .body .float-right {
   float: right;
-  margin-left: 1.5em; }
-
+  margin-left: 1.5em;
+}
 body.mkt article.mkt .body .image p {
-  font: 0.75em/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
-  margin: 0; }
+  font: .75em/1.5 $mkt-sans;
+  margin: 0;
+}
 
 body.mkt article.mkt .body blockquote {
-  border: 1px solid #dddddd;
+  border: 1px solid $mkt-bc;
   padding: 1em 1.5em 1.5em;
-  margin: 0 0 1.5em; }
-
+  margin: 0 0 1.5em;
+}
 body.mkt article.mkt .body blockquote.noattrib p {
-  margin: 0; }
-
+  margin: 0;
+}
 body.mkt article.mkt .body blockquote p {
-  font: 1.25em/1.5 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif; }
-
-body.mkt article.mkt .body blockquote p:before {
-  content: "\201C"; }
-
-body.mkt article.mkt .body blockquote p:after {
-  content: "\201D"; }
-
+  font: 1.25em/1.5 $mkt-myriad;
+}
+body.mkt article.mkt .body blockquote p:before {content:"\201C"}
+body.mkt article.mkt .body blockquote p:after {content:"\201D"}
 body.mkt article.mkt .body cite {
-  font-style: normal; }
-
+  font-style: normal;
+}
 body.mkt article.mkt .body cite .image {
   float: left;
   width: 48px;
   height: 48px;
   background: #fff;
-  margin: 0 .75em 0 0; }
-
-body.mkt article.mkt .body cite .text span {
-  display: block; }
-
+  margin: 0 .75em 0 0;
+}
+body.mkt article.mkt .body cite .text span{
+  display: block;
+}
 body.mkt article.mkt .body cite .text .name {
-  color: #cc0000;
-  font-weight: bold; }
-
+  color: $mkt-red;
+  font-weight: bold;
+}
 body.mkt article.mkt .body cite .text .title {
-  color: #666666; }
+  color: $mkt-med;
+}
 
 /*============================================================*/
 /* Article Sidebar (Aside)
 /*============================================================*/
+
 body.mkt aside.mkt {
   float: left;
   width: 240px;
-  display: inline; }
+  display: inline;
+}
 
 body.mkt aside.mkt section {
-  font: 14px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 14px/1.5 $mkt-sans;
   width: 240px;
-  margin: 0 0 3em; }
-
+  margin: 0 0 3em;
+}
 body.mkt aside.mkt section {
-  border-top: 3px solid #333333; }
+  border-top: 3px solid $mkt-txt;
+}
 
 body.mkt aside.mkt section img {
-  vertical-align: top; }
-
+  vertical-align: top;
+}
 body.mkt aside.mkt section header {
-  border: 1px solid #dddddd;
+  border: 1px solid $mkt-bc;
   border-top: none;
-  padding: .875em 1em; }
-
+  padding: .875em 1em;
+}
 body.mkt aside.mkt section header h4 {
-  font: bold 14px/1.25 "Helvetica Neue", Arial, Helvetica, sans-serif; }
-
-body.mkt aside.mkt .content {
-  border: 1px solid #dddddd;
+  font: bold 14px/1.25 $mkt-sans;
+}
+body.mkt aside.mkt .content  {
+  border: 1px solid $mkt-bc;
   border-top: none;
-  padding: .75em 0; }
-
+  padding: .75em 0;
+}
 body.mkt aside.mkt .content ul {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 body.mkt aside.mkt .content li {
   margin: 0;
-  list-style: none; }
-
+  list-style: none;
+}
 body.mkt aside.mkt .content li.padding {
-  padding: .3725em 1em; }
-
+  padding: .3725em 1em;
+}
 body.mkt aside.mkt .content li a {
   display: block;
   padding: .3725em 1em;
-  line-height: 1.25em; }
+  line-height: 1.25em;
+}
 
-body.mkt aside.mkt .content ul ul li a {
-  padding-left: 2em; }
-
+body.mkt aside.mkt .content ul ul li a{
+  padding-left: 2em
+}
 body.mkt aside.mkt .content li a.active {
-  background: #1c5e9b;
+  background: $mkt-blue;
   color: #fff;
   font-weight: bold;
-  text-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
+  text-shadow: rgba(0,0,0,0.5) 0 0 5px;
   background-color: #0069cc;
-  background-image: linear-gradient(top, #0084ff, #004f99);
+  background-image: linear-gradient(top, #0084ff,#004f99);
   background-image: -o-linear-gradient(top, #0084ff, #004f99);
   background-image: -moz-linear-gradient(top, #0084ff, #004f99);
   background-image: -webkit-linear-gradient(top, #0084ff, #004f99);
   background-image: -ms-linear-gradient(top, #0084ff, #004f99);
-  border: 1px solid #1c5e9b;
-  box-shadow: inset rgba(255, 255, 255, 0.75) 0 0 1px, rgba(255, 255, 255, 0.08) 0 1px 0;
-  cursor: default; }
+  border: 1px solid $mkt-blue;
+  box-shadow: inset rgba(255,255,255,0.75) 0 0 1px,rgba(255,255,255,0.08) 0 1px 0;
+  cursor: default;
 
+}
 body.mkt aside.mkt .content li a.active:hover {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /*============================================================*/
 /* Case study sidebar box padding fix
 /*============================================================*/
+
 body.mkt-casestudy aside.mkt .content li {
   padding: .3725em 1em;
-  list-style: none; }
-
+  list-style: none;
+}
 body.mkt-casestudy aside.mkt .content li a {
   display: inline;
   padding: 0;
-  line-height: auto; }
+  line-height: auto;
+}
 
 /*============================================================*/
 /* Article #mkt-subscribe sidebar box
 /*============================================================*/
+
 body.mkt aside.mkt section#mkt-subscribe {
-  border-color: #cc0000;
-  border: 3px solid #cc0000; }
-
+  border-color: $mkt-red;
+  border: 3px solid $mkt-red;
+}
 body.mkt aside.mkt section#mkt-subscribe h4 {
-  font: 28px/1.25 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif; }
-
+  font: 28px/1.25 $mkt-myriad;
+}
 body.mkt aside.mkt section#mkt-subscribe h4 strong {
-  letter-spacing: -1px; }
-
+  letter-spacing: -1px;
+}
 body.mkt aside.mkt section#mkt-subscribe .content {
   padding: 1.25em;
-  border: none; }
-
+  border: none;
+}
 body.mkt aside.mkt section#mkt-subscribe .content label {
   display: block;
-  margin: 0 0 1em; }
+  margin: 0 0 1em;
+}
 
 /*============================================================*/
 /* Article #mkt-social 
 /*============================================================*/
+
 body.mkt aside.mkt section#mkt-social .content {
-  padding: 1em 7px; }
-
+  padding: 1em 7px;
+}
 body.mkt aside.mkt section#mkt-social .content ul {
-  padding: 0; }
-
+  padding: 0;
+}
 body.mkt aside.mkt section#mkt-social .content li {
   width: 56px;
   float: left;
   padding: 0;
-  text-align: center; }
+  text-align: center;
+}
 
 body.mkt aside.mkt section#mkt-social .content li a {
   text-decoration: none;
   display: inline;
-  padding: 0; }
-
+  padding: 0;
+}
 body.mkt aside.mkt section#mkt-social .content li a .logo {
   display: inline-block;
-  margin: 0 0 .5em; }
-
+  margin: 0 0 .5em;
+}
 body.mkt aside.mkt section#mkt-social .content li a:hover .label {
-  color: #cc0000;
-  text-decoration: none; }
-
+  color: $mkt-red;
+  text-decoration: none;
+}
 body.mkt aside.mkt section#mkt-social .content li a:hover .label.num {
   text-decoration: none;
-  border-color: #cc0000; }
-
+  border-color: $mkt-red;
+}
 body.mkt aside.mkt section#mkt-social .content li a .label {
-  color: #666666;
-  font: 11px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: $mkt-med;
+  font: 11px/1.5 $mkt-sans;
   text-align: center;
   display: block;
-  margin: 0 0 .5em; }
-
+  margin: 0 0 .5em;
+}
 body.mkt aside.mkt section#mkt-social .content li a .label.num {
   font-size: 10px;
-  border: 1px solid #dddddd;
+  border: 1px solid $mkt-bc;
   line-height: 2em;
-  margin: 0 4px; }
+  margin: 0 4px;
+}
 
 /*============================================================*/
 /* Article #idt-signup 
 /*============================================================*/
+
 body.mkt section#idt-signup header {
-  padding-bottom: 0; }
-
+  padding-bottom: 0;
+}
 body.mkt section#idt-signup h4 {
-  font: 18px/1.25 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif; }
-
+  font: 18px/1.25 $mkt-myriad;
+}
 body.mkt section#idt-signup h4 strong {
   font-size: 2em;
   font-weight: bold;
-  letter-spacing: -1px; }
-
+  letter-spacing: -1px;
+}
 body.mkt section#idt-signup .content {
-  padding: 1em; }
+  padding: 1em;
+}
 
 /*============================================================*/
 /* Article next and previous
 /*============================================================*/
+
 body.mkt ul#article-nav {
   list-style: none;
   padding: 0;
   margin: 4.5em 0 0;
-  border: 1px solid #dddddd;
-  border-top: 3px solid #333333; }
+  border: 1px solid $mkt-bc;
+  border-top: 3px solid $mkt-txt;
+}
 
 body.mkt ul#article-nav li {
   float: left;
   width: 319px;
-  margin: 0; }
-
+  margin: 0;
+}
 body.mkt ul#article-nav li.prev {
-  border-right: 1px solid #dddddd; }
-
+  border-right: 1px solid $mkt-bc;
+}
 body.mkt ul#article-nav li.next {
-  text-align: right; }
-
+  text-align: right;
+}
 body.mkt ul#article-nav li a {
   display: block;
   width: 319px;
-  padding: 1em; }
-
+  padding: 1em;
+}
 body.mkt ul#article-nav li.prev a {
-  padding-right: 2em; }
-
+  padding-right: 2em;
+}
 body.mkt ul#article-nav li.next a {
-  padding-left: 2em; }
-
+  padding-left: 2em;
+}
 body.mkt ul#article-nav li a p {
-  margin: 0; }
-
+  margin: 0;
+}
 body.mkt ul#article-nav li a .label {
-  color: #666666;
+  color: $mkt-med;
   margin: 0 0 .75em;
-  font-size: 75%; }
-
+  font-size: 75%;
+}
 body.mkt ul#article-nav li a .title {
-  font: 1.25em/1.25 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif; }
+  font: 1.25em/1.25 $mkt-myriad;
+}
+
 
 /*============================================================*/
 /* Article #mkt-share 
 /*============================================================*/
-body.mkt ul#mkt-share {
-  border-top: 3px solid #333333;
-  border-bottom: 1px solid #dddddd;
+
+body.mkt ul#mkt-share  {
+  border-top: 3px solid $mkt-txt;
+  border-bottom: 1px solid $mkt-bc;
   list-style: none;
   padding-left: 0;
   margin: 3em 0 0;
-  border-top: 1px solid #dddddd;
-  border-right: 1px solid #dddddd; }
+  border-top: 1px solid $mkt-bc;
+  border-right: 1px solid $mkt-bc;
+}
 
 body.mkt ul#mkt-share li {
   float: left;
   width: 159px;
   line-height: 24px;
-  border-left: 1px solid #dddddd;
+  border-left: 1px solid $mkt-bc;
   text-align: center;
   font-size: 75%;
   padding: 1.5em 0 .5em;
-  margin: 0; }
-
+  margin: 0;
+}
 body.mkt ul#mkt-share li .logo {
-  display: block; }
+  display: block;
+}
 
 /*============================================================*/
 /* Article bio
 /*============================================================*/
+
 body.mkt article.mkt .bio-bottom {
-  border: 1px solid #dddddd;
+  border: 1px solid $mkt-bc;
   padding: 1.5em;
   background: #eee;
-  background: rgba(0, 0, 0, 0.04);
-  margin: 3em 0 0; }
-
+  background: rgba(0,0,0,0.04);
+  margin: 3em 0 0;
+}
 body.mkt article.mkt .bio-bottom img {
   float: left;
   margin-right: 1.0em;
   padding: 5px;
   background: #fff;
-  border: 1px solid #dddddd; }
+  border: 1px solid $mkt-bc;
+}
 
 /*============================================================*/
 /* Article Sidebar Adjusted
 /*============================================================*/
+
 body.mkt-casestudy aside {
-  margin-left: -310px; }
+  margin-left: -310px;
+}

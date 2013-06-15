@@ -1,45 +1,50 @@
-/*============================================================*/
-/* Variables 
-/*============================================================*/
+@import "mkt-variables";
+
 /*============================================================*/
 /* use case flow 
 /*============================================================*/
+
 body.mkt article.mkt .body ul.documentation-matrix {
   width: 656px;
   height: 536px;
   list-style: none;
   padding: 0;
-  border-bottom: 1px solid #dddddd;
-  margin: 0 0 3em; }
+  border-bottom: 1px solid $mkt-bc;
+  margin: 0 0 3em;
+}
 
 body.mkt article.mkt .body ul.documentation-matrix li {
   margin: 0 16px 16px 0;
   float: left;
   position: relative;
   width: 312px;
-  height: 243px; }
+  height: 243px;
+}
 
 body.mkt article.mkt .body ul.documentation-matrix li a {
   display: block;
   width: 310px;
   height: 241px;
-  border: 1px solid #dddddd; }
+  border: 1px solid $mkt-bc;
+}
 
 body.mkt article.mkt .body ul.documentation-matrix li a:hover {
-  border-color: #333333;
-  box-shadow: #1c5e9b 4px 4px 0 0;
+  border-color: $mkt-txt;
+  box-shadow: $mkt-blue 4px 4px 0 0;
   margin: -4px 0 0 -4px;
   -webkit-transition: .2s ease all;
   -moz-transition: .2s ease all;
   -ie-transition: .2s ease all;
   -o-transition: .2s ease all;
-  transition: .2s ease all; }
+  transition: .2s ease all;
+}
 
 body.mkt article.mkt .body ul.documentation-matrix li a .label {
-  font: 1.25em/3 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  border-bottom: 1px solid #dddddd;
+  font: 1.25em/3 $mkt-myriad;
+  border-bottom: 1px solid $mkt-bc;
   text-align: center;
-  color: #333333; }
-
+  color: $mkt-txt;
+}
 body.mkt article.mkt .body ul.documentation-matrix li a:hover .label {
-  color: #cc0000; }
+  color: $mkt-red;
+}

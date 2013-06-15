@@ -1,76 +1,77 @@
-/*============================================================*/
-/* Variables 
-/*============================================================*/
+@import "mkt-variables";
+
 /*============================================================*/
 /* Customer Stories
 /*============================================================*/
-body.mkt #section-customers ul.customers {
-  width: 964px; }
 
+body.mkt #section-customers ul.customers {
+  width: 964px;
+}
 body.mkt #section-customers .customer {
   float: left;
   margin: 0 13px 1em 0;
   position: relative;
   width: 228px;
-  height: 422px; }
-
+  height: 422px;
+}
 body.mkt #section-customers .customer a {
   width: 226px;
   height: 420px;
   display: block;
-  border: 1px solid #dddddd;
-  box-shadow: #fff 4px 4px 0 0; }
-
+  border: 1px solid $mkt-bc;
+  box-shadow: #fff 4px 4px 0 0;
+}
 body.mkt #section-customers .customer a:hover {
   border-color: #333;
-  box-shadow: #1c5e9b 4px 4px 0 0;
+  box-shadow: $mkt-blue 4px 4px 0 0;
   margin: -4px 0 0 -4px;
   -webkit-transition: .2s ease all;
   -moz-transition: .2s ease all;
   -o-transition: .2s ease all;
   -ie-transition: .2s ease all;
-  transition: .2s ease all; }
-
-body.mkt #section-customers .customer a:hover blockquote cite {
+  transition: .2s ease all;
+}
+body.mkt #section-customers .customer a:hover blockquote cite  {
   top: 332px;
   left: 18px;
   -webkit-transition: .2s ease all;
   -moz-transition: .2s ease all;
   -o-transition: .2s ease all;
   -ie-transition: .2s ease all;
-  transition: .2s ease all; }
-
-body.mkt #section-customers .customer a:hover .logo .read-story {
+  transition: .2s ease all;
+}
+body.mkt #section-customers .customer a:hover .logo .read-story  {
   opacity: 1;
   -webkit-transition: .2s ease all;
   -moz-transition: .2s ease all;
   -o-transition: .2s ease all;
   -ie-transition: .2s ease all;
-  transition: .2s ease all; }
+  transition: .2s ease all;
 
+}
 body.mkt #section-customers .customer .company {
-  font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 12px/1.5 $mkt-sans;
   text-align: center;
   text-transform: uppercase;
-  display: none; }
-
-body.mkt #section-customers .customer .logo {
+  display: none;
+}
+body.mkt #section-customers .customer .logo{
   text-align: center;
   width: 182px;
   margin: 22px 22px 0;
   position: relative;
-  height: 152px; }
-
+  height: 152px;
+}
 body.mkt #section-customers .customer .logo img {
   display: inline-block;
   vertical-align: top;
-  position: relative; }
-
+  position: relative;
+}
 body.mkt #section-customers .customer .logo .read-story {
   width: 182px;
   height: 152px;
   background: #000;
-  background: rgba(0, 0, 0, 0.75);
+  background: hsla(0,0%,0%,.75);
   color: #fff;
   display: block;
   opacity: 0;
@@ -78,23 +79,21 @@ body.mkt #section-customers .customer .logo .read-story {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 5; }
+  z-index: 5;
+}
 
-body.mkt #section-customers .customer blockquote {
+body.mkt #section-customers .customer blockquote{
   margin: 0;
-  padding: 1em 2em; }
+  padding: 1em 2em;
 
-body.mkt #section-customers .customer blockquote p {
-  font: 14px/1.4 "Helvetica Neue", Arial, Helvetica, sans-serif;
-  color: #333; }
-
-body.mkt #section-customers .customer blockquote p:before {
-  content: "\201C"; }
-
-body.mkt #section-customers .customer blockquote p:after {
-  content: "\201D"; }
-
-body.mkt #section-customers .customer blockquote cite {
+}
+body.mkt #section-customers .customer blockquote p  {
+  font: 14px/1.4 $mkt-sans;
+  color: #333;
+}
+body.mkt #section-customers .customer blockquote p:before {content:"\201C"}
+body.mkt #section-customers .customer blockquote p:after {content:"\201D"}
+body.mkt #section-customers .customer blockquote cite  {
   font-style: normal;
   height: 48px;
   padding: 16px 0;
@@ -102,84 +101,87 @@ body.mkt #section-customers .customer blockquote cite {
   top: 336px;
   left: 22px;
   width: 182px;
-  border-top: 1px solid #dddddd; }
-
+  border-top: 1px solid $mkt-bc;
+}
 body.mkt #section-customers .customer blockquote cite .image {
   float: left;
   width: 48px;
-  height: 48px; }
-
+  height: 48px;
+}
 body.mkt #section-customers .customer blockquote cite .text {
   float: left;
   width: 134px;
   padding: 0 0 6px 8px;
-  font: 12px/1.4 "Helvetica Neue", Arial, Helvetica, sans-serif; }
-
+  font: 12px/1.4 $mkt-sans;
+}
 body.mkt #section-customers .customer blockquote cite .text span {
-  display: block; }
-
+  display: block;
+}
 body.mkt #section-customers .customer blockquote cite .text .name {
-  color: #cc0000;
-  font-weight: bold; }
-
+  color: $mkt-red;
+  font-weight: bold;
+}
 body.mkt #section-customers .customer blockquote cite .text .title {
-  color: #666666; }
+  color: $mkt-med;
+}
 
 /*============================================================*/
 /* Logos
 /*============================================================*/
-body.mkt #section-logos ul {
-  width: 960px; }
 
+body.mkt #section-logos ul {
+  width: 960px;
+}
 body.mkt #section-logos ul li {
   float: left;
   width: 110px;
-  margin: 0 10px 10px 0; }
-
+  margin: 0 10px 10px 0;
+}
 body.mkt #section-logos ul li img {
   vertical-align: top;
   width: 110px;
   height: 60px;
-  background: #ccc; }
+  background: #ccc;
+}
 
 /*============================================================*/
 /* Testimonials
 /*============================================================*/
-body.mkt #section-testimonials .content {
-  width: 963px; }
 
+body.mkt #section-testimonials {
+}
+body.mkt #section-testimonials .content {
+  width: 963px;
+}
 body.mkt #section-testimonials blockquote {
-  border: 1px solid #dddddd;
+  border: 1px solid $mkt-bc;
   padding: 1em 1.5em 1.5em;
   width: 308px;
   margin: 0 13px 16px 0;
-  float: left; }
-
-body.mkt #section-testimonials blockquote p {
-  font: 1.25em/1.5 "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif; }
-
-body.mkt #section-testimonials blockquote p:before {
-  content: "\201C"; }
-
-body.mkt #section-testimonials blockquote p:after {
-  content: "\201D"; }
-
-body.mkt #section-testimonials cite {
-  font-style: normal; }
-
-body.mkt #section-testimonials cite .image {
+  float: left;
+}
+body.mkt #section-testimonials  blockquote p {
+  font: 1.25em/1.5 $mkt-myriad;
+}
+body.mkt #section-testimonials  blockquote p:before {content:"\201C"}
+body.mkt #section-testimonials  blockquote p:after {content:"\201D"}
+body.mkt #section-testimonials  cite {
+  font-style: normal;
+}
+body.mkt #section-testimonials  cite .image {
   float: left;
   width: 48px;
   height: 48px;
   background: #fff;
-  margin: 0 .75em 0 0; }
-
-body.mkt #section-testimonials cite .text span {
-  display: block; }
-
-body.mkt #section-testimonials cite .text .name {
-  color: #cc0000;
-  font-weight: bold; }
-
-body.mkt #section-testimonials cite .text .title {
-  color: #666666; }
+  margin: 0 .75em 0 0;
+}
+body.mkt #section-testimonials  cite .text span{
+  display: block;
+}
+body.mkt #section-testimonials  cite .text .name {
+  color: $mkt-red;
+  font-weight: bold;
+}
+body.mkt #section-testimonials  cite .text .title {
+  color: $mkt-med;
+}
